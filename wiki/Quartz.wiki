@@ -1,0 +1,109 @@
+#summary NMR shifts of quartz
+#labels Tutorial
+
+= Introduction =
+
+The calculation of the NMR shielding tensor for a periodic system is very similar to molecules. If the system is crystalline, we can exploit symmetry and compute the NMR shielding only of the inequivalent atoms.
+
+Here is the input file `quartz-converse.in.tmpl` (we have reduced the cutoff and k-point sampling just for this tutorial):
+{{{
+
+control
+    calculation  = 'scf'
+    prefix       = 'quartz'
+    restart_mode = 'from_scratch'
+    pseudo_dir   = './pseudo/'
+    outdir       = './scratch/'
+    verbosity    = 'high'
+/
+&system
+    ibrav        = 0
+    celldm(1)    = 4.6415377
+    nat          = 9
+    ntyp         = 2
+    ecutwfc      = 70
+    nbnd         = 25
+    torbmagn     = .true.
+    spline_ps    = .true.
+    dudk         = 'kdotp'
+    m_0_atom     = @ATOM@
+    m_0(@DIR@)   = 1.0
+    nosym        = .true.
+/
+&electrons
+    diagonalization = 'david'
+    diago_thr_init  = 1e-4
+    mixing_beta     = 0.5
+    conv_thr        = 1e-10
+/
+ATOMIC_SPECIES
+Si 28.086  Si.pbe-tm-gipaw.UPF
+O  15.999  O.pbe-tm-new-gipaw.UPF
+
+CELL_PARAMETERS hexagonal
+1.0000000      -1.7320581       0.0000000
+1.0000000       1.7320581       0.0000000
+0.0000000       0.0000000       2.2000000
+
+K_POINTS automatic
+2 2 2   0 0 0
+
+ATOMIC_POSITIONS crystal
+Si    0.4701     0.0000      0.3333333333
+Si    0.0000     0.4701      0.6666666667
+Si   -0.4701    -0.4701      0.0000000000
+O     0.4139     0.2674      0.2144
+O     -0.2674    0.1465      0.5477333333
+O     -0.1465   -0.4139      0.8810666667
+O      0.2674    0.4139     -0.2144
+O      0.1465   -0.2674      0.4522666667
+O     -0.4139   -0.1465      0.1189333333
+}}}
+
+Do not forget to include at least one empty band, and to switch off symmetry
+detection (`nosym=.true.`).
+
+Then:
+{{{
+#!/bin/sh
+pw=$HOME/Codes/converse-nmr/trunk/PW/pw.x
+molecule=quartz
+natoms=9
+atoms=(null Si Si Si O O O O O O)
+cart=(null x y z)
+
+for i in 1 4
+do
+  for dir in 1 2 3
+  do
+    base=$molecule-converse-${atoms[$i]}$i${cart[$dir]}
+    sed "s/@ATOM@/$i/;s/@DIR@/$dir/" <$molecule-converse.in.tmpl >$base.in
+    $pw <$base.in >$base.out
+  done
+done
+}}}
+
+By inspecting the output files, the contribution of the core to the NMR shielding
+is 837.91 ppm for Si and 271.07 ppm for O. Now you can `grep Chemical` to print
+the shielding tensors, or, if you are interested in the isotropic shielding:
+
+{{{
+#!/bin/sh
+echo "O shielding:"
+grep Chemical *-O*out | awk ' { tr=$5; getline; tr+=$6; getline; tr+=$7; print 271.0758+tr/3.0}'
+echo
+echo "Si shielding:"
+grep Chemical *-Si*out | awk ' { tr=$5; getline; tr+=$6; getline; tr+=$7; print 837.9127+tr/3.0}'
+}}}
+
+The result is:
+{{{
+O shielding:
+209.823
+
+Si shielding:
+431.611
+}}}
+
+In this example we have calculated the shielding tensor of just two atoms (Si1 and O4). You can modify the script above and loop over all atoms, in order to verify
+that the equivalent atoms yield the same NMR shielding.

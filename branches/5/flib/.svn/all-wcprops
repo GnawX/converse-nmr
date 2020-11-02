@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/35/branches/5/flib
+END
+test_input_file.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/flib/test_input_file.f90
+END
+set_hubbard_l.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/flib/set_hubbard_l.f90
+END
+invmat.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/invmat.f90
+END
+plot_io.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/plot_io.f90
+END
+more_functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/flib/more_functionals.f90
+END
+dylmr2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/dylmr2.f90
+END
+dost.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/34/branches/5/flib/dost.f90
+END
+latgen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/latgen.f90
+END
+bachel.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/bachel.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/make.depend
+END
+flush_unit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/flib/flush_unit.f90
+END
+linpack.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/linpack.f90
+END
+sph_bes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/sph_bes.f90
+END
+atomic_number.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/flib/atomic_number.f90
+END
+recips.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/recips.f90
+END
+inpfile.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/inpfile.f90
+END
+sort.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/34/branches/5/flib/sort.f90
+END
+lsda_functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/flib/lsda_functionals.f90
+END
+w1gauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/w1gauss.f90
+END
+radial_gradients.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/flib/radial_gradients.f90
+END
+distools.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/flib/distools.f90
+END
+avrec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/34/branches/5/flib/avrec.f90
+END
+ylmr2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/34/branches/5/flib/ylmr2.f90
+END
+metagga.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/metagga.f90
+END
+volume.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/volume.f90
+END
+expint.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/expint.f90
+END
+date_and_tim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/flib/date_and_tim.f90
+END
+wgauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/wgauss.f90
+END
+simpsn.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/flib/simpsn.f90
+END
+trimcheck.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/flib/trimcheck.f90
+END
+iglocal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/iglocal.f90
+END
+erf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/34/branches/5/flib/erf.f90
+END
+capital.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/capital.f90
+END
+generate_k_along_lines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/flib/generate_k_along_lines.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/34/branches/5/flib/Makefile
+END
+find_free_unit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/flib/find_free_unit.f90
+END
+remove_tot_torque.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/flib/remove_tot_torque.f90
+END
+matches.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/matches.f90
+END
+invmat_complex.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/flib/invmat_complex.f90
+END
+functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/flib/functionals.f90
+END
+sph_dbes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/flib/sph_dbes.f90
+END
+int_to_char.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/flib/int_to_char.f90
+END
+deviatoric.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/flib/deviatoric.f90
+END
+w0gauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/w0gauss.f90
+END
+transto.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/transto.f90
+END
+rgen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/34/branches/5/flib/rgen.f90
+END
+cryst_to_car.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/flib/cryst_to_car.f90
+END
+has_xml.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/flib/has_xml.f90
+END

@@ -1,0 +1,568 @@
+
+     Program PWSCF     v.3.2cvs starts ...
+     Today is 23Nov2011 at  5:45:58 
+
+     Parallel version (MPI)
+
+     Number of processors in use:       8
+     R & G space division:  proc/pool =    8
+
+     Ultrasoft (Vanderbilt) Pseudopotentials
+
+     Current dimensions of program pwscf are:
+
+     ntypx = 10   npk = 40000  lmax =  3
+     nchix =  6  ndmx =  2000  nbrx = 28  nqfx =  8
+
+     WARNING: Pseudopotential #  1 file : C.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 2(l=0) IS NOT CORRECTLY NORMALIZED: norm=  0.844033
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  1 file : C.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 3(l=1) IS NOT CORRECTLY NORMALIZED: norm=  0.999990
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  1 file : C.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 4(l=1) IS NOT CORRECTLY NORMALIZED: norm=  0.975107
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  2 file : N.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 2(l=0) IS NOT CORRECTLY NORMALIZED: norm=  0.860462
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  2 file : N.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 3(l=1) IS NOT CORRECTLY NORMALIZED: norm=  0.999999
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  2 file : N.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 4(l=1) IS NOT CORRECTLY NORMALIZED: norm=  0.856213
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+
+     WARNING: Pseudopotential #  3 file : H.pbe-tm-new-gipaw.UPF
+     WARNING: WFC # 2(l=0) IS NOT CORRECTLY NORMALIZED: norm=  0.949380
+     WARNING: WFC HAS BEEN NOW RENORMALIZED 
+     Message from routine setup:
+     the system is metallic, specify occupations
+     Simmetry # 1        1.0000    0.0000    0.0000  =>      1.0000    0.0000    0.0000
+
+     Planes per process (thick) : nr3 =125 npp =  16 ncplane =15625
+ 
+     Proc/  planes cols     G    planes cols    G      columns  G
+     Pool       (dense grid)       (smooth grid)      (wavefct grid)
+       1     16   1431   115291   16   1431   115291    358    14414
+       2     16   1431   115291   16   1431   115291    359    14415
+       3     16   1431   115291   16   1431   115291    359    14415
+       4     16   1431   115291   16   1431   115291    359    14415
+       5     16   1431   115291   16   1431   115291    359    14415
+       6     15   1431   115293   15   1431   115293    359    14415
+       7     15   1432   115292   15   1432   115292    358    14412
+       8     15   1431   115289   15   1431   115289    358    14412
+     tot    125  11449   922329  125  11449   922329   2869   115313
+ 
+
+
+     bravais-lattice index     =            1
+     lattice parameter (a_0)   =      20.0000  a.u.
+     unit-cell volume          =    8000.0000 (a.u.)^3
+     number of atoms/cell      =            4
+     number of atomic types    =            3
+     number of electrons       =        11.00 (up:   6.00, down:   5.00)
+     number of Kohn-Sham states=           12
+     kinetic-energy cutoff     =      90.0000  Ry
+     charge density cutoff     =     360.0000  Ry
+     convergence threshold     =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      =  SLA  PW   PBX  PBC (1434)
+
+     celldm(1)=  20.000000  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of a_0)
+               a(1) = (  1.000000  0.000000  0.000000 )  
+               a(2) = (  0.000000  1.000000  0.000000 )  
+               a(3) = (  0.000000  0.000000  1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/a_0)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for C  read from file C.pbe-tm-new-gipaw.UPF
+     Pseudo is Norm-conserving, Zval =  4.0
+     Using radial grid of 1441 points,  1 beta functions with: 
+                l(1) =   0
+
+     PseudoPot. # 2 for N  read from file N.pbe-tm-new-gipaw.UPF
+     Pseudo is Norm-conserving, Zval =  5.0
+     Using radial grid of 1457 points,  1 beta functions with: 
+                l(1) =   0
+
+     PseudoPot. # 3 for H  read from file H.pbe-tm-new-gipaw.UPF
+     Pseudo is Norm-conserving, Zval =  1.0
+     Using radial grid of 1261 points,  0 beta functions with: 
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.00000     C ( 1.00)
+        N              5.00    14.00000     N ( 1.00)
+        H              1.00     1.00000     H ( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        C            0.500
+        N            0.000
+        H            0.000
+
+     No symmetry!
+                                    s                        frac. trans.
+
+      isym =  1     identity                                     
+
+ cryst.   s( 1) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 1) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+     point group C_1 (1)    
+     there are  1 classes
+     the character table:
+
+       E    
+A      1.00
+
+     the symmetry operations in each class:
+     E        1
+
+   Cartesian axes
+
+     site n.     atom                  positions (a_0 units)
+         1           C   tau(  1) = (   0.0000000   0.0000000  -0.0471118  )
+         2           N   tau(  2) = (   0.0000000   0.0000000   0.0716612  )
+         3           H   tau(  3) = (   0.0000000   0.0891822  -0.1018793  )
+         4           H   tau(  4) = (   0.0000000  -0.0891822  -0.1018793  )
+
+   Crystallographic axes
+
+     site n.     atom                  positions (cryst. coord.)
+         1           C   tau(  1) = (  0.0000000  0.0000000 -0.0471118  )
+         2           N   tau(  2) = (  0.0000000  0.0000000  0.0716612  )
+         3           H   tau(  3) = (  0.0000000  0.0891822 -0.1018793  )
+         4           H   tau(  4) = (  0.0000000 -0.0891822 -0.1018793  )
+
+     number of k points=    2
+                       cart. coord. in units 2pi/a_0
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   1.0000000
+        k(    2) = (   0.0000000   0.0000000   0.0000000), wk =   1.0000000
+
+                       cryst. coord.
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   1.0000000
+        k(    2) = (   0.0000000   0.0000000   0.0000000), wk =   1.0000000
+
+     G cutoff = 3647.5626  ( 922329 G-vectors)     FFT grid: (125,125,125)
+
+     lambda_so =       1.0000         0.0000         0.0000
+     q-space interpolation up to    99.00 Rydberg
+
+     Largest allocated arrays     est. size (Mb)     dimensions
+        Kohn-Sham Wavefunctions         2.64 Mb     (  14414,  12)
+        NL pseudopotentials             0.44 Mb     (  14414,   2)
+        Each V/rho on FFT grid          7.63 Mb     ( 250000,   2)
+        Each G-vector array             0.88 Mb     ( 115291)
+        G-vector shells                 0.02 Mb     (   3027)
+     Largest temporary arrays     est. size (Mb)     dimensions
+        Auxiliary wavefunctions        10.56 Mb     (  14414,  48)
+        Each subspace H/S matrix        0.04 Mb     (     48,  48)
+        Each <psi_i|beta_j> matrix      0.00 Mb     (      2,  12)
+        Arrays for rho mixing          30.52 Mb     ( 250000,   8)
+     init_paw_1: ntyp= 1  rc=    1.5400  rs=    1.0267
+     init_paw_1: ntyp= 1  rc=    1.5400  rs=    1.0267
+     init_paw_1: ntyp= 1  rc=    1.5400  rs=    1.0267
+     init_paw_1: ntyp= 1  rc=    1.5400  rs=    1.0267
+
+     init_paw_1: projectors nearly linearly dependent:
+     ntyp =  1, l/n1/n2 =  0 2 1  0.99588996
+     init_paw_1: projectors nearly linearly dependent:
+     ntyp =  1, l/n1/n2 =  1 2 1  0.99890453
+     init_paw_1: ntyp= 2  rc=    1.4500  rs=    0.9667
+     init_paw_1: ntyp= 2  rc=    1.4500  rs=    0.9667
+     init_paw_1: ntyp= 2  rc=    1.4500  rs=    0.9667
+     init_paw_1: ntyp= 2  rc=    1.4500  rs=    0.9667
+     init_paw_1: projectors nearly linearly dependent:
+     ntyp =  2, l/n1/n2 =  0 2 1  0.99219566
+     init_paw_1: projectors nearly linearly dependent:
+     ntyp =  2, l/n1/n2 =  1 2 1  0.99925581
+     init_paw_1: ntyp= 3  rc=    0.9000  rs=    0.6000
+     init_paw_1: ntyp= 3  rc=    0.9000  rs=    0.6000
+     init_paw_1: projectors nearly linearly dependent:
+     ntyp =  3, l/n1/n2 =  0 2 1  0.99953291
+
+DIA (NMR) :  1      0  0          0.3063
+PARA (NMR):  1      0  0        670.2932
+ANG. MOM. :  1      0  0          0.0000
+DIA (SO)  :  1      0  0          4.4200
+PARA (SO) :  1      0  0       8256.1590
+DIA (NMR) :  1      0  0          0.2837
+PARA (NMR):  1      0  0        704.5998
+ANG. MOM. :  1      0  0         -0.0210
+DIA (SO)  :  1      0  0          4.4248
+PARA (SO) :  1      0  0       8698.9754
+DIA (NMR) :  1      0  0          0.2570
+PARA (NMR):  1      0  0        740.4664
+ANG. MOM. :  1      0  0         -0.0436
+DIA (SO)  :  1      0  0          4.4695
+PARA (SO) :  1      0  0       9165.5801
+DIA (NMR) :  1      1  1          0.0622
+PARA (NMR):  1      1  1          1.5755
+ANG. MOM. :  1      1  1          0.0000
+DIA (SO)  :  1      1  1          0.8653
+PARA (SO) :  1      1  1         30.6907
+DIA (NMR) :  1      1  1          0.0788
+PARA (NMR):  1      1  1          1.7491
+ANG. MOM. :  1      1  1          0.0083
+DIA (SO)  :  1      1  1          1.0471
+PARA (SO) :  1      1  1         33.5070
+DIA (NMR) :  1      1  1          0.0968
+PARA (NMR):  1      1  1          1.9389
+ANG. MOM. :  1      1  1          0.0171
+DIA (SO)  :  1      1  1          1.2586
+PARA (SO) :  1      1  1         36.5686
+DIA (NMR) :  2      0  0          0.2669
+PARA (NMR):  2      0  0        893.3376
+ANG. MOM. :  2      0  0          0.0000
+DIA (SO)  :  2      0  0          5.0973
+PARA (SO) :  2      0  0      12897.6085
+DIA (NMR) :  2      0  0          0.2091
+PARA (NMR):  2      0  0        945.9735
+ANG. MOM. :  2      0  0         -0.0408
+DIA (SO)  :  2      0  0          4.9486
+PARA (SO) :  2      0  0      13707.9259
+DIA (NMR) :  2      0  0          0.1425
+PARA (NMR):  2      0  0       1001.1824
+ANG. MOM. :  2      0  0         -0.0836
+DIA (SO)  :  2      0  0          4.8938
+PARA (SO) :  2      0  0      14569.2353
+DIA (NMR) :  2      1  1          0.0871
+PARA (NMR):  2      1  1          2.6628
+ANG. MOM. :  2      1  1          0.0000
+DIA (SO)  :  2      1  1          1.4228
+PARA (SO) :  2      1  1         56.8275
+DIA (NMR) :  2      1  1          0.1057
+PARA (NMR):  2      1  1          2.8956
+ANG. MOM. :  2      1  1          0.0086
+DIA (SO)  :  2      1  1          1.6580
+PARA (SO) :  2      1  1         60.9727
+DIA (NMR) :  2      1  1          0.1255
+PARA (NMR):  2      1  1          3.1458
+ANG. MOM. :  2      1  1          0.0175
+DIA (SO)  :  2      1  1          1.9218
+PARA (SO) :  2      1  1         65.4045
+DIA (NMR) :  3      0  0          0.0542
+PARA (NMR):  3      0  0         40.0041
+ANG. MOM. :  3      0  0          0.0000
+DIA (SO)  :  3      0  0          0.1531
+PARA (SO) :  3      0  0        276.6188
+DIA (NMR) :  3      0  0          0.0612
+PARA (NMR):  3      0  0         42.4439
+ANG. MOM. :  3      0  0          0.0015
+DIA (SO)  :  3      0  0          0.1765
+PARA (SO) :  3      0  0        291.2199
+DIA (NMR) :  3      0  0          0.0686
+PARA (NMR):  3      0  0         45.0273
+ANG. MOM. :  3      0  0          0.0031
+DIA (SO)  :  3      0  0          0.2056
+PARA (SO) :  3      0  0        306.5892
+     total number of PAW projectors:  20
+
+     Initial potential from superposition of free atoms
+
+     starting charge    9.99995, renormalised to   11.00000
+
+     negative rho (up, down):  0.318E-05 0.296E-05
+     Starting wfc are   20 atomic wfcs
+
+     total cpu time spent up to now is     10.96 secs
+
+     per-process dynamical memory:    71.4 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-04,  avg # of iterations = 10.5
+
+     negative rho (up, down):  0.173E-06 0.234E-06
+
+     total cpu time spent up to now is     39.93 secs
+
+     total energy              =   -32.76506289 Ry
+     Harris-Foulkes estimate   =   -33.73255221 Ry
+     estimated scf accuracy    <     1.41527235 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.13 Bohr mag/cell
+
+     iteration #  2     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-04,  avg # of iterations =  6.5
+
+     negative rho (up, down):  0.122E-06 0.164E-06
+
+     total cpu time spent up to now is     63.65 secs
+
+     total energy              =   -32.84009257 Ry
+     Harris-Foulkes estimate   =   -34.25369666 Ry
+     estimated scf accuracy    <     3.52291949 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.05 Bohr mag/cell
+
+     iteration #  3     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-04,  avg # of iterations =  7.0
+
+     negative rho (up, down):  0.184E-07 0.250E-07
+
+     total cpu time spent up to now is     87.08 secs
+
+     total energy              =   -33.47573404 Ry
+     Harris-Foulkes estimate   =   -33.46590405 Ry
+     estimated scf accuracy    <     0.02953042 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.07 Bohr mag/cell
+
+     iteration #  4     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-04,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is     99.75 secs
+
+     total energy              =   -33.48470558 Ry
+     Harris-Foulkes estimate   =   -33.48009557 Ry
+     estimated scf accuracy    <     0.00317409 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.04 Bohr mag/cell
+
+     iteration #  5     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.89E-05,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is    113.06 secs
+
+     total energy              =   -33.48679712 Ry
+     Harris-Foulkes estimate   =   -33.48639320 Ry
+     estimated scf accuracy    <     0.00058913 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.07 Bohr mag/cell
+
+     iteration #  6     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  5.36E-06,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is    129.01 secs
+
+     total energy              =   -33.48724508 Ry
+     Harris-Foulkes estimate   =   -33.48702609 Ry
+     estimated scf accuracy    <     0.00010183 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.11 Bohr mag/cell
+
+     iteration #  7     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  9.26E-07,  avg # of iterations =  2.5
+
+     total cpu time spent up to now is    142.72 secs
+
+     total energy              =   -33.48744558 Ry
+     Harris-Foulkes estimate   =   -33.48742255 Ry
+     estimated scf accuracy    <     0.00001590 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.15 Bohr mag/cell
+
+     iteration #  8     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.45E-07,  avg # of iterations =  3.0
+
+     total cpu time spent up to now is    157.30 secs
+
+     total energy              =   -33.48752196 Ry
+     Harris-Foulkes estimate   =   -33.48751802 Ry
+     estimated scf accuracy    <     0.00000224 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.18 Bohr mag/cell
+
+     iteration #  9     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.03E-08,  avg # of iterations =  3.0
+
+     total cpu time spent up to now is    171.20 secs
+
+     total energy              =   -33.48752895 Ry
+     Harris-Foulkes estimate   =   -33.48752887 Ry
+     estimated scf accuracy    <     0.00000016 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.19 Bohr mag/cell
+
+     iteration # 10     ecut=    90.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.44E-09,  avg # of iterations =  3.0
+
+     total cpu time spent up to now is    183.94 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 (115313 PWs)   bands (ev):
+
+   -22.5440 -14.7992 -11.9266  -8.9476  -8.4818  -6.0955  -1.7159  -0.4781
+     0.5984   0.6603   0.9117   0.9939
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   1.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 (115313 PWs)   bands (ev):
+
+   -21.7238 -14.3907 -11.3490  -8.3874  -8.2297  -3.4467  -1.5063  -0.3826
+     0.7061   0.7961   0.9838   1.0125
+
+     occupation numbers 
+     1.0000   1.0000   1.0000   1.0000   1.0000   0.0000   0.0000   0.0000
+     0.0000   0.0000   0.0000   0.0000
+
+     highest occupied, lowest unoccupied level (ev):    -6.0955   -3.4467
+
+!    total energy              =   -33.48752939 Ry
+     Harris-Foulkes estimate   =   -33.48752937 Ry
+     estimated scf accuracy    <        4.2E-09 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -76.41280369 Ry
+     hartree contribution      =    39.47464949 Ry
+     xc contribution           =    -9.71862750 Ry
+     ewald contribution        =    13.16925232 Ry
+
+     total magnetization       =     1.00 Bohr mag/cell
+     absolute magnetization    =     1.19 Bohr mag/cell
+
+     convergence has been achieved
+
+     Forces acting on atoms (Ry/au):
+
+     atom   1 type  1   force =     0.00000000    0.00000000    0.01119166
+     atom   2 type  2   force =     0.00000000    0.00000000   -0.01443409
+     atom   3 type  3   force =     0.00000000   -0.00219761    0.00162121
+     atom   4 type  3   force =     0.00000000    0.00219761    0.00162121
+
+     Total force =     0.018668     Total SCF correction =     0.000023
+ 
+     Computing du/dk (k \dot p perturbation)
+     k-point:   1    pool:   1    occ=  6    alpha_pv=    2.4179
+     k-point:   2    pool:   1    occ=  5    alpha_pv=    1.9836
+     done with du/dk   q_gipaw = 0.020000
+ 
+     Computing the orbital magnetization (bohr mag/cell):
+BC: k-point:    1  pool:   1        0.000004    0.000000    0.000000
+LC: k-point:    1  pool:   1       -0.000439    0.000000    0.000000
+IC: k-point:    1  pool:   1        0.000528    0.000000    0.000000
+BC: k-point:    2  pool:   1        0.000000    0.000000    0.000000
+LC: k-point:    2  pool:   1        0.001400    0.000000    0.000000
+IC: k-point:    2  pool:   1        0.000200    0.000000    0.000000
+ 
+     SPIN-ORBIT:
+     lambda_so          =       1.000000      0.000000      0.000000
+ 
+     NUCLEAR DIPOLE ON ATOM   1:
+     m_0                =       0.000000      0.000000      0.000000
+ 
+     Berry curvature    =       0.000004      0.000000      0.000000
+     Fermi energy       =      -0.350670 rydberg
+ 
+     (without Berry curvature term)
+     M_LC               =       0.001922      0.000000      0.000000
+     M_IC               =       0.001456      0.000000      0.000000
+     Delta_M_bare       =       0.000028      0.000000      0.000000
+     Delta_M_para       =      -0.000002      0.000000      0.000000
+     Delta_M_dia        =       0.000007      0.000000      0.000000
+     M_tot              =       0.003410      0.000000      0.000000
+ 
+     (with Berry curvature term)
+     M_LC               =       0.001923      0.000000      0.000000
+     M_IC               =       0.001457      0.000000      0.000000
+     Delta_M            =       0.000033      0.000000      0.000000
+     M_tot              =       0.003413      0.000000      0.000000
+ 
+     SPIN-ORBIT:
+     lambda_so          =       1.000000      0.000000      0.000000
+     Contributions to the g-tensor (ppm):
+     delta_g RMC        =      -183.9753
+     delta_g RMC(GIPAW) =       -21.0714
+     delta_g SO         =      3412.9284        0.0000        0.0000
+ 
+     delta_g total      =      3207.8816        0.0000        0.0000
+
+     Writing output data file h2cn.save
+ 
+     PWSCF        :  5m46.20s CPU time,     5m49.41s wall time
+
+     init_run     :    10.82s CPU
+     electrons    :   172.97s CPU
+     forces       :     0.55s CPU
+ 
+ 
+     electrons    :   172.97s CPU
+     c_bands      :   141.23s CPU (      10 calls,  14.123 s avg)
+     sum_band     :     7.63s CPU (      10 calls,   0.763 s avg)
+     v_of_rho     :    13.93s CPU (      11 calls,   1.267 s avg)
+     v_h          :     0.77s CPU (      11 calls,   0.070 s avg)
+     v_xc         :    13.24s CPU (      11 calls,   1.204 s avg)
+     mix_rho      :     1.75s CPU (      10 calls,   0.175 s avg)
+ 
+     c_bands      :   141.23s CPU (      10 calls,  14.123 s avg)
+     init_us_2    :     0.48s CPU (      76 calls,   0.006 s avg)
+     cegterg      :   141.09s CPU (      20 calls,   7.055 s avg)
+ 
+     sum_band     :     7.63s CPU (      10 calls,   0.763 s avg)
+ 
+     wfcrot       :     5.99s CPU (       2 calls,   2.995 s avg)
+     cegterg      :   141.09s CPU (      20 calls,   7.055 s avg)
+     h_psi        :   286.08s CPU (     320 calls,   0.894 s avg)
+     g_psi        :     0.42s CPU (      88 calls,   0.005 s avg)
+     overlap      :     4.85s CPU (      88 calls,   0.055 s avg)
+     diaghg       :     0.10s CPU (     108 calls,   0.001 s avg)
+     update       :     3.93s CPU (      88 calls,   0.045 s avg)
+     last         :     4.47s CPU (     158 calls,   0.028 s avg)
+ 
+     h_psi        :   286.08s CPU (     320 calls,   0.894 s avg)
+     init         :     0.61s CPU (     320 calls,   0.002 s avg)
+     firstfft     :    51.13s CPU (    1814 calls,   0.028 s avg)
+     secondfft    :    53.25s CPU (    1814 calls,   0.029 s avg)
+     add_vuspsi   :     0.57s CPU (     320 calls,   0.002 s avg)
+     s_psi        :     0.17s CPU (     132 calls,   0.001 s avg)
+ 
+     General routines
+     ccalbec      :     7.66s CPU (     678 calls,   0.011 s avg)
+     cft3         :    12.94s CPU (     226 calls,   0.057 s avg)
+     cft3s        :   244.39s CPU (    9310 calls,   0.026 s avg)
+     davcio       :     0.00s CPU (      88 calls,   0.000 s avg)
+ 
+     Parallel routines
+     reduce       :     6.14s CPU (    1761 calls,   0.003 s avg)
+     fft_scatter  :    82.54s CPU (    9536 calls,   0.009 s avg)

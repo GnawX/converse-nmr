@@ -1,0 +1,32 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ h.in: numerical problems with PW91 - not related to SIC but to LSD
+he.in: convergence problems apparently related to SIC, worse with LSD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+This directory contains a few examples of all-electron inputs.
+The output are in the directory "reference/". Input data:
+
+h.in       Non-relativistic, sic correction,  sigma-GGA (PW91)
+he.in      Non-relativistic, sic correction,  sigma-GGA (PBE)
+f.in       Scalar relativistic, sic correction, LDA
+mg.in      Dirac relativistic, latter correction, as in the HS tables [1]
+fe.in      Dirac-relativistic, Hartree calculation, no exchange       [1]
+cu1.in     Dirac relativistic, latter correction, as in the HS tables [1]
+cu.in      Non-relativistic, Hartree calculation, no exchange         
+ar.in      Non-relativistic, sic correction,  LDA                     [3]
+pt.in      Dirac relativistic, latter correction, as in the HS tables [1]
+u1.in      Dirac relativistic, latter correction, as in the HS tables [1]
+u.in       Dirac relativistic, sic correction, PBE
+w.in       Dirac relativistic, latter correction, as in the HS tables [1]
+ne_oep.in  Non-relativistic, Optimized Effective Potential, no spin
+c_oep.in   Non-relativistic, Optimized Effective Potential, spin-pol.
+
+The script test.job runs ld1.x on these examples, writes the outputs
+into directory "results/", compares them with reference outputs and
+writes the differences between these files into file "difference".
+
+References:
+
+[1] D. Liberman, J.T. Waber, and Don T. Cromer, Phys. Rev. 137, A27 (1965).
+
+[2] J. Perdew and A. Zunger, Phys. Rev. B 23, 5048 (1981).

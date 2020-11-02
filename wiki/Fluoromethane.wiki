@@ -1,0 +1,118 @@
+#summary Fluromethane (CH3F) NMR shielding tensor
+#labels Tutorial
+
+= Introduction =
+
+In order to calculate the NMR shielding tensors of the Fluoromethane (CH,,3,,F)
+molecule with the _converse method_ you should perform three SCF calculations for
+each atom. For each atom, we will compute the orbital magnetization induced by
+a nuclear magnetic dipole along the three cartesian directions.
+
+Here is the input file `CH3F-converse.in.tmpl` (you must change `pseudo_dir` and `outdir` on your machine):
+{{{
+&control
+    prefix           = 'ch3f'
+    calculation      = 'scf'
+    restart_mode     = 'from_scratch'
+    pseudo_dir       = './pseudo/'
+    outdir           = './scratch/'
+    tprnfor          = .true.
+    verbosity        = 'high'
+/
+&system
+    ibrav            = 1
+    celldm(1)        = 20.0
+    nat              = 5
+    ntyp             = 3
+    ecutwfc          = 100
+    nbnd             = 8
+    torbmagn         = .true.
+    spline_ps        = .true.
+    dudk             = 'kdotp'
+    m_0_atom         = @ATOM@
+    m_0(@DIR@)       = 1.0
+/
+&electrons
+    diagonalization  = 'cg'
+    conv_thr         = 1.0d-8
+/
+ATOMIC_SPECIES
+C   12.01017   C.pbe-tm-new-gipaw.UPF
+H   1.00794    H.pbe-tm-new-gipaw.UPF
+F   18.9984    F.pbe-tm-new-gipaw.UPF
+
+K_POINTS automatic
+1 1 1   0 0 0
+
+ATOMIC_POSITIONS {angstrom}
+C                     0.000000    0.000000   -0.639244
+H                     0.000000    1.033870   -0.986374
+H                    -0.895357   -0.516935   -0.986374
+H                     0.895357   -0.516935   -0.986374
+F                     0.000000    0.000000    0.754954
+}}}
+
+*Important:* you should include few empty bands, in order to evaluate
+correctly the _Berry curvature_ term. In this case, fluoromethane has
+14 valence electrons i.e. 7 occupied bands. Hence we are requesting 1
+empty state (`nbnd=8`).
+
+The `@ATOM@` and `@DIR@` tags will be replaced with the atom index and
+cartesian direction by a `sed` command.
+
+The following script will run the sequence of calculations (you must change the path to the `pw.x` executable):
+{{{
+#!/bin/sh
+pw=$HOME/Codes/converse-nmr/trunk/PW/pw.x
+
+molecule=CH3F
+natoms=5
+atoms=(null C H H H F)
+cart=(null x y z)
+
+for i in `seq 1 $natoms`
+do
+  for dir in 1 2 3
+  do
+    base=$molecule-converse-${atoms[$i]}$i${cart[$dir]}
+    sed "s/@ATOM@/$i/;s/@DIR@/$dir/" <$molecule-converse.in.tmpl >$base.in
+    $pw <$base.in >$base.out
+  done
+done
+}}}
+
+If there are no problems, you can get the NMR shielding tensors by `grep Chemical` on the output files. For instance:
+{{{
+grep Chemical CH3F-converse*.out
+CH3F-converse-C1x.out:     Chemical shift (ppm):     -160.2305        0.0000        0.0000
+CH3F-converse-C1y.out:     Chemical shift (ppm):        0.0000     -136.2443        0.0083
+CH3F-converse-C1z.out:     Chemical shift (ppm):        0.0000        0.2877      -21.8395
+
+CH3F-converse-H2x.out:     Chemical shift (ppm):       24.0363        0.0000        0.0000
+CH3F-converse-H2y.out:     Chemical shift (ppm):        0.0000       23.5641       -4.8690
+CH3F-converse-H2z.out:     Chemical shift (ppm):        0.0000        5.1545       28.9360
+
+CH3F-converse-H3x.out:     Chemical shift (ppm):       24.0991       -1.8045       -0.1553
+CH3F-converse-H3y.out:     Chemical shift (ppm):        0.0422       22.5327       -0.3904
+CH3F-converse-H3z.out:     Chemical shift (ppm):        0.9360       -1.0107       28.9133
+
+CH3F-converse-H4x.out:     Chemical shift (ppm):       24.0991        1.8045        0.1553
+CH3F-converse-H4y.out:     Chemical shift (ppm):       -0.0422       22.5327       -0.3904
+CH3F-converse-H4z.out:     Chemical shift (ppm):       -0.9360       -1.0107       28.9133
+
+CH3F-converse-F5x.out:     Chemical shift (ppm):      171.2135        0.0000        0.0000
+CH3F-converse-F5y.out:     Chemical shift (ppm):        0.0000      170.5523        0.0198
+CH3F-converse-F5z.out:     Chemical shift (ppm):        0.0000       -0.0416      109.6036
+}}}
+The isotropic shielding is given by one-third of the trace of the tensors plus the
+contributions from the core electrons (200.51 for C, 306.42 for F) and is
+reported in the following table, compared by the linear-response results:
+|| *Atom* || *sigma_iso converse (ppm)* || *sigma_iso linear-response (ppm)* ||
+|| C1     ||  94.41               || 100.10 ||
+|| H2     ||  25.51               || 26.47 ||
+|| H3     ||  25.18               || 26.47 ||
+|| H4     ||  25.18               || 26.47 ||
+|| F5     || 456.87               || 458.43 ||
+
+In order to get the NMR chemical shift, you must subtract the obtained shielding
+from those of the reference compound (TMS for C and H), or by referring them to a secondary reference compound.

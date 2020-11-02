@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/3/trunk/upftools
+END
+fhi2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/upftools/fhi2upf.f90
+END
+write_upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/upftools/write_upf.f90
+END
+rrkj2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/rrkj2upf.f90
+END
+vdb2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/upftools/vdb2upf.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/upftools/make.depend
+END
+cpmd2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/cpmd2upf.f90
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/upftools/.cvsignore
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/upftools/Makefile
+END
+fpmd2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/fpmd2upf.f90
+END
+uspp2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/uspp2upf.f90
+END
+any2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/upftools/any2upf.f90
+END
+read_upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/read_upf.f90
+END
+virtual.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/upftools/virtual.f90
+END
+read_upf_tofile.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/upftools/read_upf_tofile.f90
+END
+vanderbilt.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/upftools/vanderbilt.f90
+END
+UPF
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/upftools/UPF
+END
+ncpp2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/upftools/ncpp2upf.f90
+END
+oldcp2upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/upftools/oldcp2upf.f90
+END

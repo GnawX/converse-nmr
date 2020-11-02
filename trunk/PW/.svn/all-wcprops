@@ -1,0 +1,1583 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/47/trunk/PW
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/Makefile
+END
+pwscf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/pwscf.f90
+END
+cdiaghg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/cdiaghg.f90
+END
+error_handler.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/error_handler.f90
+END
+restart_in_electrons.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/PW/restart_in_electrons.f90
+END
+ewald.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/ewald.f90
+END
+stres_loc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/stres_loc.f90
+END
+rho2zeta.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/rho2zeta.f90
+END
+mode_group.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/mode_group.f90
+END
+v_of_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/v_of_rho.f90
+END
+bp_radin.f
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/bp_radin.f
+END
+stres_us.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/stres_us.f90
+END
+compute_dip.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/compute_dip.f90
+END
+sgam_at.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/sgam_at.f90
+END
+force_corr.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/force_corr.f90
+END
+set_vrs.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/set_vrs.f90
+END
+noncol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/noncol.f90
+END
+c_bands.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/trunk/PW/c_bands.f90
+END
+data_structure.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/data_structure.f90
+END
+vhpsi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/vhpsi.f90
+END
+symvect.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/symvect.f90
+END
+atomic_wfc_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/atomic_wfc_nc.f90
+END
+init_us_2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/init_us_2.f90
+END
+buffers.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/buffers.f90
+END
+find_group.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/find_group.f90
+END
+tweights.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/tweights.f90
+END
+smallg_q.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/smallg_q.f90
+END
+dndepsilon.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/dndepsilon.f90
+END
+io_rho_xml.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/io_rho_xml.f90
+END
+sgam_at_mag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/26/trunk/PW/sgam_at_mag.f90
+END
+psymrho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/psymrho.f90
+END
+dvloc_of_g.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/dvloc_of_g.f90
+END
+h_psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/h_psi.f90
+END
+force_cc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/force_cc.f90
+END
+makov_payne.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/makov_payne.f90
+END
+transform_becsum_so.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/PW/transform_becsum_so.f90
+END
+dynamics_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/dynamics_module.f90
+END
+coset.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/coset.f90
+END
+g_tensor_module.f90.davide
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/PW/g_tensor_module.f90.davide
+END
+gweights.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/gweights.f90
+END
+struct_fact.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/struct_fact.f90
+END
+sumkg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/sumkg.f90
+END
+sum_band.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/sum_band.f90
+END
+gen_at_dy.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/gen_at_dy.f90
+END
+init_paw_1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/init_paw_1.f90
+END
+s_psi_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/s_psi_nc.f90
+END
+rotate_wfc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/rotate_wfc.f90
+END
+newd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/newd.f90
+END
+stres_hub.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/stres_hub.f90
+END
+setup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/setup.f90
+END
+restart_in_ions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/restart_in_ions.f90
+END
+average_pp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/average_pp.f90
+END
+read_file.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/read_file.f90
+END
+k_dot_p.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/k_dot_p.f90
+END
+addusforce.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/addusforce.f90
+END
+para.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/para.f90
+END
+ruotaijk.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/ruotaijk.f90
+END
+ewald_dipole.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/ewald_dipole.f90
+END
+becmod.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/becmod.f90
+END
+set_kplusq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/set_kplusq.f90
+END
+openfil.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/openfil.f90
+END
+set_hubbard_l.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/set_hubbard_l.f90
+END
+real_diis_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PW/real_diis_module.f90
+END
+set_kup_and_kdw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/set_kup_and_kdw.f90
+END
+gradcorr.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/gradcorr.f90
+END
+vcsubs.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/vcsubs.f90
+END
+symrho_mag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/symrho_mag.f90
+END
+wgauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/wgauss.f90
+END
+h_1psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/h_1psi.f90
+END
+complex_diis_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/PW/complex_diis_module.f90
+END
+trnvect.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/trnvect.f90
+END
+orbital_magnetization.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/31/trunk/PW/orbital_magnetization.f90
+END
+init_vloc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/init_vloc.f90
+END
+pw_restart.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/pw_restart.f90
+END
+dqvan2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/dqvan2.f90
+END
+rotate_wfc_gamma.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PW/rotate_wfc_gamma.f90
+END
+remove_atomic_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/remove_atomic_rho.f90
+END
+symz.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/symz.f90
+END
+compute_scf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/compute_scf.f90
+END
+get_locals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/get_locals.f90
+END
+cegterg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/cegterg.f90
+END
+diis_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/diis_base.f90
+END
+sph_ind.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/sph_ind.f90
+END
+interpolate.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/interpolate.f90
+END
+symtns.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/symtns.f90
+END
+summary.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/summary.f90
+END
+save_in_cbands.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/save_in_cbands.f90
+END
+rdiagh.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/rdiagh.f90
+END
+addusstress.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/addusstress.f90
+END
+stres_cc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/stres_cc.f90
+END
+make_pointlists.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/make_pointlists.f90
+END
+init_paw_2.f90.old
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/init_paw_2.f90.old
+END
+a2fmod.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/a2fmod.f90
+END
+compute_u_kq.f90.old
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PW/compute_u_kq.f90.old
+END
+gen_at_dj.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/gen_at_dj.f90
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/.cvsignore
+END
+setqf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/setqf.f90
+END
+compute_qdipol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/compute_qdipol.f90
+END
+cinitcgg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/cinitcgg.f90
+END
+reset_k_points.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/reset_k_points.f90
+END
+bp_calc_btq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/bp_calc_btq.f90
+END
+divide_et_impera.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PW/divide_et_impera.f90
+END
+init_paw_2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/init_paw_2.f90
+END
+compute_u_kq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/compute_u_kq.f90
+END
+hinit0.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/hinit0.f90
+END
+stres_ewa.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/stres_ewa.f90
+END
+electrons.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/electrons.f90
+END
+cft3.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/cft3.f90
+END
+g_tensor_module.f90.old
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/PW/g_tensor_module.f90.old
+END
+save_in_electrons.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/save_in_electrons.f90
+END
+sumkt.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/sumkt.f90
+END
+wfcinit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/wfcinit.f90
+END
+rdiaghg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/rdiaghg.f90
+END
+init_at_1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/init_at_1.f90
+END
+save_in_ions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/save_in_ions.f90
+END
+ccalbec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/ccalbec.f90
+END
+efermig.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/efermig.f90
+END
+non_scf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/non_scf.f90
+END
+deriv_drhoc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/deriv_drhoc.f90
+END
+divide_class.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/divide_class.f90
+END
+read_ncpp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/read_ncpp.f90
+END
+dprojdtau.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/dprojdtau.f90
+END
+vloc_of_g.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/vloc_of_g.f90
+END
+symscalar.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/symscalar.f90
+END
+s_1psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/s_1psi.f90
+END
+dndtau_of_k.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/dndtau_of_k.f90
+END
+hexsym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/hexsym.f90
+END
+iweights.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/iweights.f90
+END
+compute_dudk.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/compute_dudk.f90
+END
+pwcom.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/pwcom.f90
+END
+eqvect.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/eqvect.f90
+END
+transform_becsum_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/PW/transform_becsum_nc.f90
+END
+w1gauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/w1gauss.f90
+END
+rgen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/rgen.f90
+END
+diropn.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/diropn.f90
+END
+inverse_s.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/inverse_s.f90
+END
+checkallsym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/checkallsym.f90
+END
+add_efield.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/add_efield.f90
+END
+multable.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/multable.f90
+END
+seqopn.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/seqopn.f90
+END
+h_psi_meta.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/h_psi_meta.f90
+END
+output_tau.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/output_tau.f90
+END
+g2_kin.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/g2_kin.f90
+END
+bp_strings.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/bp_strings.f90
+END
+cgramg1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/cgramg1.f90
+END
+cft3s.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/cft3s.f90
+END
+h_psi_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/h_psi_nc.f90
+END
+bp_c_phase.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/bp_c_phase.f90
+END
+sgama.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/sgama.f90
+END
+ccgdiagg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/ccgdiagg.f90
+END
+compute_fes_grads.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/compute_fes_grads.f90
+END
+input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/input.f90
+END
+g_psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/g_psi.f90
+END
+stres_knl.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/stres_knl.f90
+END
+print_ks_energies.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/print_ks_energies.f90
+END
+s_psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/s_psi.f90
+END
+mix_pot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/mix_pot.f90
+END
+h_epsi_her_set.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/h_epsi_her_set.f90
+END
+allocate_fft.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/allocate_fft.f90
+END
+psymrho_mag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/psymrho_mag.f90
+END
+potinit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/potinit.f90
+END
+qvan2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/qvan2.f90
+END
+paw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PW/paw.f90
+END
+write_ns.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/write_ns.f90
+END
+realus.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/realus.f90
+END
+cryst_to_car.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/cryst_to_car.f90
+END
+hinit1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/hinit1.f90
+END
+drhoc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/drhoc.f90
+END
+add_vuspsi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/add_vuspsi.f90
+END
+nmr_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/26/trunk/PW/nmr_module.f90
+END
+init_ns.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/init_ns.f90
+END
+ions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/ions.f90
+END
+tabd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/tabd.f90
+END
+rotate_wfc_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/rotate_wfc_nc.f90
+END
+setupkpt.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/setupkpt.f90
+END
+ggen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PW/ggen.f90
+END
+symrho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/symrho.f90
+END
+atomic_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/atomic_rho.f90
+END
+close_files.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/close_files.f90
+END
+s_axis_to_ca.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/s_axis_to_ca.f90
+END
+efermit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/efermit.f90
+END
+lchk_tauxk.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/lchk_tauxk.f90
+END
+report_mag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/report_mag.f90
+END
+regterg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/regterg.f90
+END
+orbital_magnetization.f90.old
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/PW/orbital_magnetization.f90.old
+END
+allocate_locpot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/allocate_locpot.f90
+END
+rinitcgg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/rinitcgg.f90
+END
+gen_us_dy.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/gen_us_dy.f90
+END
+punch.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/punch.f90
+END
+sgam_ph.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/sgam_ph.f90
+END
+orthoatwfc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/orthoatwfc.f90
+END
+n_plane_waves.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/n_plane_waves.f90
+END
+allocate_wfc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/allocate_wfc.f90
+END
+stres_gradcorr.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/stres_gradcorr.f90
+END
+compute_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/compute_rho.f90
+END
+force_ew.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/force_ew.f90
+END
+ccalbec_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/ccalbec_nc.f90
+END
+force_hub.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/force_hub.f90
+END
+ns_adj.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/ns_adj.f90
+END
+move_ions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/move_ions.f90
+END
+allocate_nlpot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/allocate_nlpot.f90
+END
+g_psi_mod.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/g_psi_mod.f90
+END
+wsweight.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/wsweight.f90
+END
+startup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/trunk/PW/startup.f90
+END
+read_conf_from_file.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/PW/read_conf_from_file.f90
+END
+memory_report.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/memory_report.f90
+END
+update_pot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/update_pot.f90
+END
+davcio.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/davcio.f90
+END
+force_us.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/force_us.f90
+END
+restart_from_file.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/restart_from_file.f90
+END
+set_rhoc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/set_rhoc.f90
+END
+d_matrix.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/d_matrix.f90
+END
+gk_sort.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/gk_sort.f90
+END
+irrek.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/irrek.f90
+END
+print_clock_pw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PW/print_clock_pw.f90
+END
+compute_qdipol_so.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PW/compute_qdipol_so.f90
+END
+trntns.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/trntns.f90
+END
+init_us_1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/init_us_1.f90
+END
+divide_class_so.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PW/divide_class_so.f90
+END
+pw_gemm.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/pw_gemm.f90
+END
+add_bfield.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/add_bfield.f90
+END
+bp_qvan3.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/bp_qvan3.f90
+END
+vhpsi_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/vhpsi_nc.f90
+END
+h_epsi_her_apply.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PW/h_epsi_her_apply.f90
+END
+spinor.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/spinor.f90
+END
+vcsmd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PW/vcsmd.f90
+END
+orbital_magnetization_spheres.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/PW/orbital_magnetization_spheres.f90
+END
+cubicsym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/cubicsym.f90
+END
+vloc_psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/vloc_psi.f90
+END
+cdiagh.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/cdiagh.f90
+END
+clean_pw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/clean_pw.f90
+END
+bp_ylm_q.f
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/bp_ylm_q.f
+END
+stres_har.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/stres_har.f90
+END
+symmetrize_at.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/symmetrize_at.f90
+END
+mix_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/mix_rho.f90
+END
+c_phase_field.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/c_phase_field.f90
+END
+usnldiag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/usnldiag.f90
+END
+checksym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/checksym.f90
+END
+rcgdiagg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/rcgdiagg.f90
+END
+kpoint_grid.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/kpoint_grid.f90
+END
+weights.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/weights.f90
+END
+atomic_wfc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PW/atomic_wfc.f90
+END
+force_lc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/force_lc.f90
+END
+forces.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/forces.f90
+END
+add_vuspsi_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/add_vuspsi_nc.f90
+END
+set_fft_dim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/set_fft_dim.f90
+END
+stress.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/stress.f90
+END
+g_tensor_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/26/trunk/PW/g_tensor_module.f90
+END
+init_run.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/init_run.f90
+END
+new_ns.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/new_ns.f90
+END
+w0gauss.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/w0gauss.f90
+END
+read_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PW/read_pseudo.f90
+END
+h_psi.f90.davide
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PW/h_psi.f90.davide
+END
+gen_us_dj.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/gen_us_dj.f90
+END
+scale_h.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/scale_h.f90
+END
+divide.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PW/divide.f90
+END
+trnvecc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/trnvecc.f90
+END
+exx.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PW/exx.f90
+END
+setlocal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/setlocal.f90
+END
+stop_run.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PW/stop_run.f90
+END
+addusdens.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PW/addusdens.f90
+END
+dprojdepsilon.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PW/dprojdepsilon.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PW/make.depend
+END

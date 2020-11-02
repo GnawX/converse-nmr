@@ -1,0 +1,150 @@
+!
+! Copyright (C) 2001-2005 Quantum-ESPRESSO group
+! This file is distributed under the terms of the
+! GNU General Public License. See the file `License'
+! in the root directory of the present distribution,
+! or http://www.gnu.org/copyleft/gpl.txt .
+!
+#include "f_defs.h"
+!
+!-----------------------------------------------------------------------
+subroutine allocate_nlpot
+  !-----------------------------------------------------------------------
+  !
+  ! This routine computes the dimension of the Hamiltonian matrix and
+  ! allocates arrays containing the non-local part of the pseudopotential
+  !
+  ! It computes the following global quantities:
+  !
+  !     ngk           !  number of plane waves (for each k point)
+  !     npwx          !  maximum number of plane waves
+  !     nkb           !  number of beta functions for the solid
+  !     nqx           !  number of points of the interpolation table
+  !     nh            !  number of beta functions for each atom type
+  !     nhm           !  maximum number of different beta functions
+  !     nbetam        !  maximum number of beta functions
+  !
+  !
+  USE parameters,       ONLY : nchix
+  USE ions_base,        ONLY : nat, nsp, ityp
+  USE cell_base,        ONLY : tpiba2
+  USE cellmd,           ONLY : cell_factor
+  USE gvect,            ONLY : ngm, gcutm, ecutwfc, g
+  USE klist,            ONLY : xk, wk, ngk, nks, xqq
+  USE lsda_mod,         ONLY : nspin
+  USE ldaU,             ONLY : Hubbard_lmax, ns, nsnew
+  USE noncollin_module, ONLY : noncolin
+  USE wvfct,            ONLY : npwx, npw, igk, g2kin
+  USE us,               ONLY : qrad, tab, tab_d2y, tab_at, dq, nqx, &
+                               nqxq, spline_ps
+  USE uspp,             ONLY : indv, nhtol, nhtolm, qq, dvan, deeq, vkb, nkb, &
+                               nkbus, nhtoj, becsum, qq_so, dvan_so, deeq_nc
+  USE uspp_param,       ONLY : lmaxq, lmaxkb, lll, nbeta, nh, nhm, nbetam,tvanp
+  USE spin_orb,         ONLY : lspinorb, fcoef
+  USE io_global,        ONLY : stdout
+  !
+  implicit none
+  !
+  !    a few local variables
+  !
+  integer :: nt, na, nb, ldim  
+  ! counters on atom type, atoms, beta functions
+  !
+  !   calculate number of PWs for all kpoints
+  !
+  allocate (ngk( nks ))
+  !
+  call n_plane_waves (ecutwfc, tpiba2, nks, xk, g, ngm, npwx, ngk)
+  !
+  !   igk relates the index of PW k+G to index in the list of G vector
+  !
+  allocate (igk( npwx ), g2kin ( npwx ) )    
+  !
+  !     calculate the number of beta functions for each atomic type
+  !
+  lmaxkb = - 1
+  do nt = 1, nsp
+     nh (nt) = 0
+     do nb = 1, nbeta (nt)
+        nh (nt) = nh (nt) + 2 * lll (nb, nt) + 1
+        lmaxkb = max (lmaxkb, lll (nb, nt) )
+     enddo
+  enddo
+  !
+  ! calculate the maximum number of beta functions
+  !
+  nhm = MAXVAL (nh (1:nsp))
+  nbetam = MAXVAL (nbeta (1:nsp))
+  !
+  ! calculate the number of beta functions of the solid
+  !
+  nkb = 0
+  nkbus = 0
+  do na = 1, nat
+     nt = ityp(na)
+     nkb = nkb + nh (nt)
+     if (tvanp(nt)) nkbus = nkbus + nh (nt)
+  enddo
+  !
+  allocate (indv( nhm, nsp))    
+  allocate (nhtol(nhm, nsp))    
+  allocate (nhtolm(nhm, nsp))    
+  allocate (nhtoj(nhm, nsp))    
+  allocate (deeq( nhm, nhm, nat, nspin))    
+  if (noncolin) then
+     allocate (deeq_nc( nhm, nhm, nat, nspin))    
+  endif
+  if (lspinorb) then
+    allocate (qq_so(nhm, nhm, 4, nsp))    
+    allocate (qq(   nhm, nhm, nsp))    
+    allocate (dvan_so( nhm, nhm, nspin, nsp))    
+    allocate (fcoef(nhm,nhm,2,2,nsp))
+  else
+    allocate (qq(   nhm, nhm, nsp))    
+    allocate (dvan( nhm, nhm, nsp))    
+  endif
+  !
+  !<ceres>
+  if (cell_factor == 1.d0) cell_factor = 1.1d0
+  write(stdout,'(5X,''q-space interpolation up to '',F8.2,'' Rydberg'')') &
+        ecutwfc*cell_factor
+  !</ceres>
+  nqxq = INT( ( (sqrt(gcutm) + sqrt(xqq(1)**2 + xqq(2)**2 + xqq(3)**2) ) &
+          / dq + 4) * cell_factor )
+  lmaxq = 2*lmaxkb+1
+  !
+  if (lmaxq > 0) allocate (qrad( nqxq, nbetam*(nbetam+1)/2, lmaxq, nsp))
+  !<ceres>
+  !!if (nkb > 0) allocate (vkb( npwx,  nkb))    
+  allocate (vkb( npwx,  nkb))
+  !</ceres>
+  allocate (becsum( nhm * (nhm + 1)/2, nat, nspin))    
+  !
+  ! ... Allocate space for Hubbard potential
+  ! ... These arrays are allocated ALWAYS even if lda_plus_u = .FALSE.
+  ! ... This is needed since they are passed as arguments of mix_rho
+  ! ... no matter lda_plus_u is .TRUE. or .FALSE.   ( 23/10/2003 C.S. )
+  !
+  ! if (lda_plus_u) then  
+  !
+  ldim = 2 * Hubbard_lmax + 1
+  ALLOCATE( ns( ldim, ldim, nspin, nat ) )
+  ALLOCATE( nsnew( ldim, ldim, nspin, nat ) ) 
+  !
+  ! endif
+  !
+  !     Calculate dimensions for array tab (including a possible factor
+  !     coming from cell contraction during variable cell relaxation/MD)
+  !
+  nqx = INT( (sqrt (ecutwfc) / dq + 4) * cell_factor )
+
+  allocate (tab( nqx , nbetam , nsp))
+
+  ! d2y is for the cubic splines
+  if (spline_ps) allocate (tab_d2y( nqx , nbetam , nsp))
+
+  allocate (tab_at( nqx , nchix , nsp))
+
+  return
+end subroutine allocate_nlpot
+

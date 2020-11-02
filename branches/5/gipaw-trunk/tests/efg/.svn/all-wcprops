@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg
+END
+quartz-scf.out-4cpu-1pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-scf.out-4cpu-1pool
+END
+quartz-scf.out-4cpu-2pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-scf.out-4cpu-2pool
+END
+quartz-efg.out-serial
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-efg.out-serial
+END
+quartz-scf.out-4cpu-4pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-scf.out-4cpu-4pool
+END
+quartz-efg.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-efg.in
+END
+quartz-efg.out-4cpu-1pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-efg.out-4cpu-1pool
+END
+quartz-efg.out-4cpu-2pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-efg.out-4cpu-2pool
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/pseudo
+END
+quartz-efg.out-4cpu-4pool
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-efg.out-4cpu-4pool
+END
+quartz-scf.out-serial
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-scf.out-serial
+END
+quartz-scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/branches/5/gipaw-trunk/tests/efg/quartz-scf.in
+END

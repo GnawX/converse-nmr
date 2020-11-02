@@ -1,0 +1,23 @@
+#summary Tutorials main page
+#labels Tutorial
+
+= Tutorials =
+
+Here you can find short tutorials on how to calculate the NMR shielding tensors
+and the EPR g-tensor with the _converse_ method.
+
+  * [Compiling Getting and compiling the code]
+  * [Input Input variables]
+  * [Fluoromethane NMR: Fluoromethane]
+  * [Quartz NMR: Quartz]
+  * [H2CN EPR: H2CN radical]
+
+=== Pseudopotentials ===
+
+The current implementation of the converse method works only with norm-conserving
+pseudopotentials. We have generated some GIPAW pseudopotentials ready for use. You can find them [https://sites.google.com/site/dceresoli/pseudopotentials here]. If
+you need to generate new pseudopotentials, you can follow the instructions at
+[http://www.impmc.jussieu.fr/~software/gipaw/index.html].
+
+We will appreciate if you could share your pseudopotential with the GIPAW community
+by sending them to us. We will then upload the pseudopotentials to this site.

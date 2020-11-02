@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/25/trunk/tutorial_files/NMR-CH3F
+END
+CH3F-converse.in.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/20/trunk/tutorial_files/NMR-CH3F/CH3F-converse.in.tmpl
+END
+getshifts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/20/trunk/tutorial_files/NMR-CH3F/getshifts.sh
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/tutorial_files/NMR-CH3F/pseudo
+END
+job.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/tutorial_files/NMR-CH3F/job.sh
+END

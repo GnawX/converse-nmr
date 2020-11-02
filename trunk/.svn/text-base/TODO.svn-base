@@ -1,0 +1,230 @@
+TODO LIST - May 2007
+
+BUGS TO EXAMINE
+
+- Zr pp buggy?
+- strange empty states with C blyp ?
+- O pseudopotentials?
+- Zval is wrong for pseudopotentials generated on a ionic
+  configuration, when semicore states are in the valence
+- discrepancies between spin-unpolarized and spin=0 spin-polarized
+  results with gradient corrections
+- mysterious bfgs crash(-es) with ndim=3
+- Lisenkov:
+> Did anybody else report that pw.x hangs sometimes without any explicit 
+> reason? I see it very often recently (after realizing 3.2 version) on 
+> different machines (xeon em64t, cray xd1, cray xt3, altix,..). It usually
+> happens when the number of scf steps is being large (~100). I didn't see
+> such problem with earlier versions, but I need to use the latest one due 
+> to using LDA+U method
+- Sara Furlan:
+> sto usando cpvib.x dell'espresso versione 3.2.
+> Mi sono accorta che se in input si danno le ATOMIC_POSITIONS
+> con un ordine diverso dagli ATOMIC_SPECIES si ottengono delle
+> frequenze improbabili.
+
+- Problems found by Eduardo: 
+  - pw => cp with atoms out of the cell
+  - extrapolation of wfcs
+
+CVS/INSTALLATION/PORTING
+
+- restructuration of the CVS server, dividing it into "base libs",
+  "base QE", additional packages - release.sh is clumsy, simplify
+- remove obsolete stuff from install/
+- put misc scripts into a Utils/ subdirectory
+
+COMMON
+
+- reduce usage of nonscalable static and dynamical memory:
+  qfunc, qrad, uspp, etc
+
+- use qexml for xml file processing so that a single, easily
+  exportable routine, is used everywhere. Requires some though
+  on how to deal with parallelism without filling qexml with
+  parallel stuff
+
+- uniform and clear values for constants in Modules/constants.f90
+  Almost done: now they have to be used everywhere!
+
+- convert all single-precision constants to double precision
+  (mostly done)
+
+- pseudopotentials: support new format (xml) if/when ready
+  add default cutoff values as well as radii of augmented charge
+  in pseudopotential files
+
+- adding/removing/modifying input variables is too complex
+  Why are some checks on input variables performed in read_namelist,
+  while others apparently similar are in */input.f90?
+
+- time steps in ps/fs (both in input and in output)
+
+- fix shift in eigenvalues between CP/FPMD and PW
+  The eigenvalues should be the same
+  Total energies for charged systems should also be the same
+
+- merge spherical harmonics between CP-PW and FPMD
+  merge integration routines, random number generators
+
+- spherical bessel functions: only one function calculating dj_l/dx
+  j_l with l=-1 should not be needed
+
+- error is in flib/ but requires modules: not a good solution,
+  things in flib/ should not use modules except maybe kinds 
+  and other very low level modules 
+- too many confusing error messages are still around
+
+- replace calls to level-1 blas copy, scal, axpy, with f90 syntax
+
+- CP "small boxes" vs PW "real-space" approach
+
+- It would be nice to merge "cell_base_init" from CPV to PW,
+  and also "cellmd" module of PW into "cell_base" of CPV
+
+- there should be a single function or routine for periodic boundary 
+  conditions (i.e. bringing all atoms inside the unit cell)
+
+PW
+
+- inversion symmetry should allow real hamiltonian and wavefunctions (Dario)
+
+- nscf calculations are slow. There must be a way to make a better usage
+  of the available information from the scf calculation: wavefunctions
+  are just discarded. Same for phonon calculation: it shouldn't be needed 
+  to recalculate everything almost from scratch at each different q-points
+
+- atomic coordinates should be read from file and only optionally 
+  from input in non-scf calculations: the present method is error-prone
+
+- DIIS still doesn't work!
+
+- Fermi-Dirac: pass T instead of "broadening", make it possible
+  to use it on top of smearing for free-energy calculations
+
+- add possibility to read atomic positions from file
+
+- Use more standard choices for crystal axis (if any)
+
+- make hpsi/spsi/newd/addusdens/CG/DIIS  faster
+  - remove complex factor i**l from beta fct and q(r) (preliminary)
+  - shift structure factor from beta to psi when computing becp (reduce memory)
+  - use real BLAS routine instead of COMPLEX one in hpsi/spsi 
+    (at least 2 times faster).
+  - use only half of the G's when computing real integrals (2 times faster)
+  - seek for CG and DIIS algoritms that only use (H-eS)|psi> and not
+    the two vector separately ... compute it in one single call. (this way
+    S|psi> is  inexpensive)
+
+- output should be more informative and less confused
+
+- write explicitly and unambiguosly the units of output quantities
+  and also what are exactly the output quantites!
+
+- some symmetry-related routines such as sgama are too complex
+  Verify that a group is a group (call multable again in sgama)
+
+- printout of cpu times not very informative
+
+- better memory estimate
+
+- add traceback in error (error_handler module)
+
+POSTPROCESSING
+
+- complete postprocessing in Gamma case (only average missing),
+  and with CP/FPMD data
+
+- stm_wfc_matching not working
+
+- Move to a xml-based format for the dynamical matrix files
+
+- fix pp.x in parallel execution
+
+- pwtools: add example of a plot of phonon dispersions
+  Fix fqha.f90
+
+PH, D3, Gamma
+
+- replace static npertx with dynamical npert
+
+- C(R) might be calculated at the end of a dispersion run
+
+- any possibility to merge the various solve_* ?
+
+- use charge mixing instead of potential mixing
+
+- move all phonon-specific stuff (symmetry etc) from pw into phonon
+
+- clean up the logic of symmetry: there shouldn't be any longer the
+  present confusion on whose symmetries we are dealing with. We should
+  either keep unchanged the crystal symmetries and use indices to
+  locate symmetries of the small group of q, or keep different copies 
+  for the symmetries of the crystal and of the small group of q
+
+- same input for Gamma and PH
+
+- replace "use pwcom" into more "use" statements
+
+- stop with 'prefix.EXIT' and restart (PH now has it; D3 & Gamma do not
+  have any infrastructure for stopping like this)
+  Phonon restart is inefficient in some cases
+
+DOCUMENTATION
+
+- move to wiki-based documentation
+
+- single source (xml?) for text file, GUI help file, user guide
+
+- better automated testing procedure, quick and distinct from examples!
+
+- add some benchmarks
+
+CP/FPMD:
+
+- PWGui for CP/FPMD?
+
+- check on small box size
+
+- Proposals from Princeton:
+  * default set up for molecular calculations
+  * default choice for spin restricted and spin unrestricted configurations
+    for neutral systems (maybe already there?)
+  * automatic FFT grids from cutoff
+  * automatic box grid for USPP from radii of augmented charge
+  * default values for emass(emass=300), for dt (dt=7), for preconditioning
+    cutoff (3)
+  * the code should consider a common error:
+      dt^2/emass too large does not allow ortho to converge
+      or cause energy to increase as time step evolve
+  * Electronic minimization: SD should be discouraged: use damp as default,
+    introduce an automatic default schedule, something as:
+    1st step sd followed by 5 steps with with damp= 0.8,
+                followed by 5 steps with damp=0.5,
+                followed by 10 steps with damp=0.3,
+                followed by 10 steps with damp=0.2,
+                followed by as many steps as necessary
+                to achieve the required convergence with damp=0.1
+   A max number of steps should be included to ensure program termination
+   The other option allowed should be conjugate gradients: 
+   see Nicola - eventually it could become the default
+  * Ionic minimization: again SD should be discouraged
+    A default scheme for simultaneous damped dynamics should be given
+    (to be tested) for example: zero damp on ions and start with damp=0.5
+    on electrons to become then 0.1 or perhaps the values should be set
+    given the forces on the ions
+    When moving ions and electrons simultaneously an important parameter
+    is the ratio between electron and ion masses - For minimization it 
+    is better to set up all the ion masses equal - A default value for
+    the ion masses (considering the defaults for emass and dt) is perhaps
+    10 AMU (we should do some test to see if 20 AMU is s a safer value)
+  * Default values for randomization should be given
+    amprp=0.1 is a decent value - amprp=0.01 is too small
+  * Car-Parrinello dynamics: the proper masses for the ions, an optimal value
+    for emass and dt should be set up by the code, based on the smaller atomic
+    mass and the default value used in the minimizationi
+    e.g. Amass_default=10 AMU. If the minimum physical AMASS is 20 then
+    dt=sqrt(2) dt_default and emass should be increased so to keep
+    emass^2/dt constant
+  * defaults for the Nose thermostat
+

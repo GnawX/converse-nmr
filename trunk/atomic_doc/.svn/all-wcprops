@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/3/trunk/atomic_doc
+END
+pseudo-gen.tex
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-gen.tex
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/atomic_doc/ChangeLog
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/atomic_doc/README
+END
+INPUT_LD1
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/atomic_doc/INPUT_LD1
+END
+make_clean
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic_doc/make_clean
+END

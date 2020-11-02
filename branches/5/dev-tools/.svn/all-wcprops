@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/35/branches/5/dev-tools
+END
+src-normal
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/dev-tools/src-normal
+END
+helpdoc.schema
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.schema
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/dev-tools/Makefile
+END
+update_gui_help
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/dev-tools/update_gui_help
+END
+helpdoc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc
+END
+check_gui
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/dev-tools/check_gui
+END
+guihelp.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/dev-tools/guihelp.xsl
+END
+input_xx.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/dev-tools/input_xx.xsl
+END
+src-normal.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/dev-tools/src-normal.py
+END
+calltree.pl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/dev-tools/calltree.pl
+END
+release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/dev-tools/release.sh
+END
+callhtml.pl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/dev-tools/callhtml.pl
+END
+README.helpdoc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/dev-tools/README.helpdoc
+END

@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/26/trunk/Modules
+END
+parallel_include.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/Modules/parallel_include.f90
+END
+fft_types.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/fft_types.f90
+END
+berry_phase.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/berry_phase.f90
+END
+parameters.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/parameters.f90
+END
+metagga.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/metagga.f90
+END
+path_reparametrisation.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Modules/path_reparametrisation.f90
+END
+stick_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/stick_base.f90
+END
+printout_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/Modules/printout_base.f90
+END
+xml_input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/xml_input.f90
+END
+xml_io_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/xml_io_base.f90
+END
+read_uspp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/read_uspp.f90
+END
+pseudo_types.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Modules/pseudo_types.f90
+END
+read_cards.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/read_cards.f90
+END
+electrons_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Modules/electrons_base.f90
+END
+upf_to_internal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/Modules/upf_to_internal.f90
+END
+wave_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/wave_base.f90
+END
+mp_global.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/mp_global.f90
+END
+mp_wave.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/mp_wave.f90
+END
+ions_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/ions_base.f90
+END
+fft_scalar.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/fft_scalar.f90
+END
+ptoolkit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/ptoolkit.f90
+END
+recvec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Modules/recvec.f90
+END
+mp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/Modules/mp.f90
+END
+shmem_include.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/Modules/shmem_include.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/Modules/Makefile
+END
+smallbox.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/smallbox.f90
+END
+check_stop.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/check_stop.f90
+END
+path_variables.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Modules/path_variables.f90
+END
+version.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/version.f90
+END
+read_upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/read_upf.f90
+END
+kind.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/Modules/kind.f90
+END
+io_global.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/io_global.f90
+END
+pseudodata.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/pseudodata.f90
+END
+io_files.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/io_files.f90
+END
+wavefunctions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/Modules/wavefunctions.f90
+END
+control_flags.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/Modules/control_flags.f90
+END
+ions_nose.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/ions_nose.f90
+END
+task_groups.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/task_groups.f90
+END
+energies.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/energies.f90
+END
+wannier.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/wannier.f90
+END
+fft_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/fft_base.f90
+END
+path_io_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/Modules/path_io_routines.f90
+END
+constants.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/constants.f90
+END
+constraints_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/Modules/constraints_module.f90
+END
+clocks.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Modules/clocks.f90
+END
+griddim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/griddim.f90
+END
+parallel_types.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Modules/parallel_types.f90
+END
+functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/functionals.f90
+END
+bfgs_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/bfgs_module.f90
+END
+path_formats.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Modules/path_formats.f90
+END
+uspp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/Modules/uspp.f90
+END
+metadyn_io.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/Modules/metadyn_io.f90
+END
+read_namelists.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Modules/read_namelists.f90
+END
+metadyn_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Modules/metadyn_base.f90
+END
+metadyn_vars.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Modules/metadyn_vars.f90
+END
+parser.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Modules/parser.f90
+END
+atom.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/Modules/atom.f90
+END
+descriptors.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/Modules/descriptors.f90
+END
+path_opt_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/Modules/path_opt_routines.f90
+END
+cell_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/cell_base.f90
+END
+random_numbers.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/Modules/random_numbers.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Modules/make.depend
+END
+sic.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/Modules/sic.f90
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Modules/.cvsignore
+END
+autopilot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/autopilot.f90
+END
+splinelib.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/splinelib.f90
+END
+input_parameters.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/Modules/input_parameters.f90
+END
+path_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/Modules/path_base.f90
+END
+basic_algebra_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Modules/basic_algebra_routines.f90
+END
+timestep.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Modules/timestep.f90
+END

@@ -1,0 +1,551 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/3/trunk/atomic-gipaw
+END
+compute_solution.f90
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_solution.f90
+END
+compute_det.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_det.f90
+END
+ld1inc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/ld1inc.f90
+END
+test_bessel.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/test_bessel.f90
+END
+do_mesh.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/do_mesh.f90
+END
+start_potps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/start_potps.f90
+END
+esic.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/esic.f90
+END
+run_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/run_pseudo.f90
+END
+elsd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/elsd.f90
+END
+lderivps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/lderivps.f90
+END
+int_0_inf_dr.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/int_0_inf_dr.f90
+END
+chargeps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/chargeps.f90
+END
+lschps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/lschps.f90
+END
+compute_chi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_chi.f90
+END
+compute_phipot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_phipot.f90
+END
+normalize.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/atomic-gipaw/normalize.f90
+END
+seriebes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/seriebes.f90
+END
+ld1_readin.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/ld1_readin.f90
+END
+nodenum.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/nodenum.f90
+END
+read_pseudoupf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/read_pseudoupf.f90
+END
+drhoofv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/drhoofv.f90
+END
+ascheqps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/ascheqps.f90
+END
+write_gipaw_recon.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_gipaw_recon.f90
+END
+new_potential.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/atomic-gipaw/new_potential.f90
+END
+find_qi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/find_qi.f90
+END
+scf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/atomic-gipaw/scf.f90
+END
+drho0ofvx.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/atomic-gipaw/drho0ofvx.f90
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/.cvsignore
+END
+newd_at.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/newd_at.f90
+END
+ascheqps_drv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/ascheqps_drv.f90
+END
+ld1_writeout.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/ld1_writeout.f90
+END
+dir_outward.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/dir_outward.f90
+END
+inward.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/inward.f90
+END
+el_config.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/atomic-gipaw/el_config.f90
+END
+write_paw_recon.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_paw_recon.f90
+END
+intref.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/intref.f90
+END
+integrate_outward.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/atomic-gipaw/integrate_outward.f90
+END
+dfx_new.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/dfx_new.f90
+END
+elsdps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/elsdps.f90
+END
+write_cpmd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_cpmd.f90
+END
+compute_chi_tm.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_chi_tm.f90
+END
+ld1_setup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/atomic-gipaw/ld1_setup.f90
+END
+green.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/green.f90
+END
+compute_potps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_potps.f90
+END
+exc_t.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/exc_t.f90
+END
+parameters.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/parameters.f90
+END
+ascheq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/ascheq.f90
+END
+vpack.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/vpack.f90
+END
+write_upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_upf.f90
+END
+ascheqlocps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/ascheqlocps.f90
+END
+write_gipaw_recon.f90.orig
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_gipaw_recon.f90.orig
+END
+vdpack.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/vdpack.f90
+END
+write_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_pseudo.f90
+END
+starting_potential.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/atomic-gipaw/starting_potential.f90
+END
+vxcgc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/vxcgc.f90
+END
+write_results.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_results.f90
+END
+set_rho_core.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/set_rho_core.f90
+END
+set_sl3.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/set_sl3.f90
+END
+c6_tfvw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/c6_tfvw.f90
+END
+ld1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/atomic-gipaw/ld1.f90
+END
+dmixp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/dmixp.f90
+END
+vxc_t.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/atomic-gipaw/vxc_t.f90
+END
+outward.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/outward.f90
+END
+integrate_inward.f90
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/atomic-gipaw/integrate_inward.f90
+END
+trou.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/trou.f90
+END
+add_exchange.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/add_exchange.f90
+END
+read_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/read_pseudo.f90
+END
+dirsol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/dirsol.f90
+END
+all_electron.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/all_electron.f90
+END
+c6_dft.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/c6_dft.f90
+END
+sic_correction.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/sic_correction.f90
+END
+cfdsol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/cfdsol.f90
+END
+compute_phi_tm.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_phi_tm.f90
+END
+compute_phi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_phi.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/make.depend
+END
+write_resultsps.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/atomic-gipaw/write_resultsps.f90
+END
+gener_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/atomic-gipaw/gener_pseudo.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/Makefile
+END
+pseudovloc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/pseudovloc.f90
+END
+atomic_paw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/atomic_paw.f90
+END
+compute_phius.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/atomic-gipaw/compute_phius.f90
+END
+lderiv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/lderiv.f90
+END
+descreening.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/atomic-gipaw/descreening.f90
+END
+vext.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/vext.f90
+END
+hartree.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/atomic-gipaw/hartree.f90
+END
+series.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/atomic-gipaw/series.f90
+END
+set_psi_in.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/atomic-gipaw/set_psi_in.f90
+END
+occ_spin.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/occ_spin.f90
+END
+run_test.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/atomic-gipaw/run_test.f90
+END
+read_newpseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/atomic-gipaw/read_newpseudo.f90
+END
+dvex.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/atomic-gipaw/dvex.f90
+END

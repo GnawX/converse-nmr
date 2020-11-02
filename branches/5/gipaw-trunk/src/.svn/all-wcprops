@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/46/branches/5/gipaw-trunk/src
+END
+symmetrize_field.f90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/symmetrize_field.f90
+END
+gipaw_main.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/46/branches/5/gipaw-trunk/src/gipaw_main.f90
+END
+atomic.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/atomic.f90
+END
+gipaw_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/46/branches/5/gipaw-trunk/src/gipaw_module.f90
+END
+gipaw_version.f90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/45/branches/5/gipaw-trunk/src/gipaw_version.f90
+END
+epr_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/epr_routines.f90
+END
+knight_shift.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/knight_shift.f90
+END
+h_psiq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/h_psiq.f90
+END
+core_relax.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/core_relax.f90
+END
+suscept_crystal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/suscept_crystal.f90
+END
+hyperfine.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/hyperfine.f90
+END
+j_para.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/j_para.f90
+END
+output_magres.f90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/output_magres.f90
+END
+mossbauer.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/mossbauer.f90
+END
+orthoatwfc1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/orthoatwfc1.f90
+END
+gipaw_routines_bands.f90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/gipaw_routines_bands.f90
+END
+sym_cart_tensor.f90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/sym_cart_tensor.f90
+END
+util.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/util.f90
+END
+biot_savart.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/biot_savart.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/make.depend
+END
+Makefile-gpu.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/Makefile-gpu.in
+END
+stop_code.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/stop_code.f90
+END
+symmetrize_rho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/symmetrize_rho.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/Makefile
+END
+update_gipaw_version
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/update_gipaw_version
+END
+compute_dudk.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/compute_dudk.f90
+END
+nmr_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/nmr_routines.f90
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/Makefile.in
+END
+write_tensor_field.f90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/write_tensor_field.f90
+END
+cgsolve_all.f90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/cgsolve_all.f90
+END
+compute_u_kq.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/compute_u_kq.f90
+END
+ch_psi_all.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/ch_psi_all.f90
+END
+velocity.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/velocity.f90
+END
+gipaw_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/46/branches/5/gipaw-trunk/src/gipaw_routines.f90
+END
+efg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/efg.f90
+END
+cg_psi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/cg_psi.f90
+END
+greenfunction.f90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/greenfunction.f90
+END
+Makefile-gpu
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/Makefile-gpu
+END

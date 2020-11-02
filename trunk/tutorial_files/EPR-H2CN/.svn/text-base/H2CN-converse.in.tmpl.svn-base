@@ -1,0 +1,51 @@
+&control
+    prefix = 'h2cn'
+    calculation = 'scf'
+    restart_mode = 'from_scratch'
+    pseudo_dir = './pseudo/'
+    outdir = './scratch/'
+    lkpoint_dir = .false.
+    tstress = .false.
+    tprnfor = .true.
+    verbosity = 'high'
+/
+&system
+    ibrav = 1
+    celldm(1) = 20
+    nat = 4
+    ntyp = 3
+    ecutwfc = 90
+    occupations = 'fixed'
+    nspin = 2
+    nbnd = 12
+    nelec = 11
+    nelup = 6
+    neldw = 5
+    starting_magnetization(1) = 0.5
+    starting_magnetization(2) = 0.0
+    spline_ps = .true.
+    nosym = .true.
+    lambda_so(@DIR@) = 1.0
+    torbmagn = .true.
+    dudk = 'kdotp'
+/
+&electrons
+    diagonalization = 'david'
+    diago_thr_init = 1e-4
+    conv_thr = 1e-8
+/
+
+ATOMIC_SPECIES
+C  12.0000    C.pbe-tm-new-gipaw.UPF
+N  14.0000    N.pbe-tm-new-gipaw.UPF
+H   1.0000    H.pbe-tm-new-gipaw.UPF
+
+ATOMIC_POSITIONS angstrom
+C        0.000000000   0.000000000  -0.498610113
+N        0.000000000   0.000000000   0.758429607
+H        0.000000000   0.943863931  -1.078243747
+H        0.000000000  -0.943863931  -1.078243747
+
+K_POINTS automatic
+1 1 1 0 0 0
+

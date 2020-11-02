@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP/pseudo
+END
+benzene-scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP/benzene-scf.in
+END
+benzene-scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP/benzene-scf.out
+END
+benzene-nmr.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP/benzene-nmr.in
+END
+benzene-nmr.out
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/benzene-NCPP/benzene-nmr.out
+END

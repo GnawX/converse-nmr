@@ -1,0 +1,617 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/42/branches/5/Modules
+END
+fd_gradient.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/fd_gradient.f90
+END
+read_xml_cards.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/Modules/read_xml_cards.f90
+END
+stick_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/stick_base.f90
+END
+mm_dispersion.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/mm_dispersion.f90
+END
+fft_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/fft_base.f90
+END
+sic.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/Modules/sic.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/make.depend
+END
+mp_bands.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/mp_bands.f90
+END
+qexml.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/Modules/qexml.f90
+END
+read_cards.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/read_cards.f90
+END
+uspp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/Modules/uspp.f90
+END
+io_global.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/io_global.f90
+END
+set_signal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/set_signal.f90
+END
+electrons_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/Modules/electrons_base.f90
+END
+becmod.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/Modules/becmod.f90
+END
+wavefunctions.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/wavefunctions.f90
+END
+control_flags.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/control_flags.f90
+END
+atom.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/Modules/atom.f90
+END
+command_line_options.f90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/Modules/command_line_options.f90
+END
+recvec_subs.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/recvec_subs.f90
+END
+open_close_input_file.f90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/Modules/open_close_input_file.f90
+END
+fft_scalar.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/fft_scalar.f90
+END
+qmmm.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/Modules/qmmm.f90
+END
+recvec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/Modules/recvec.f90
+END
+plugin_flags.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/plugin_flags.f90
+END
+constants.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/constants.f90
+END
+mp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/34/branches/5/Modules/mp.f90
+END
+paw_variables.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/paw_variables.f90
+END
+xml_io_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/xml_io_base.f90
+END
+check_stop.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/check_stop.f90
+END
+input_parameters.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/41/branches/5/Modules/input_parameters.f90
+END
+version.f90.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/42/branches/5/Modules/version.f90.tmp
+END
+upf_to_internal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/Modules/upf_to_internal.f90
+END
+mp_pools.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/mp_pools.f90
+END
+read_input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/read_input.f90
+END
+timestep.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/timestep.f90
+END
+read_ncpp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/read_ncpp.f90
+END
+bspline.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/bspline.f90
+END
+mp_wave.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/mp_wave.f90
+END
+environ_input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/environ_input.f90
+END
+parallel_include.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/Modules/parallel_include.f90
+END
+mp_images.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/mp_images.f90
+END
+xc_vdW_DF.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/xc_vdW_DF.f90
+END
+environment.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/environment.f90
+END
+zhpev_drv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/zhpev_drv.f90
+END
+tsvdw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/Modules/tsvdw.f90
+END
+compute_dipole.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/Modules/compute_dipole.f90
+END
+cell_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/cell_base.f90
+END
+fft_custom.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/fft_custom.f90
+END
+write_upf_v2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/write_upf_v2.f90
+END
+wannier_new.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/wannier_new.f90
+END
+constraints_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/Modules/constraints_module.f90
+END
+clocks.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/Modules/clocks.f90
+END
+funct.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/Modules/funct.f90
+END
+autopilot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/autopilot.f90
+END
+splinelib.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/splinelib.f90
+END
+read_xml_fields.f90
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/Modules/read_xml_fields.f90
+END
+fft_interfaces.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/Modules/fft_interfaces.f90
+END
+ws_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/ws_base.f90
+END
+plugin_arguments.f90
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/Modules/plugin_arguments.f90
+END
+pseudo_types.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/pseudo_types.f90
+END
+radial_grids.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/radial_grids.f90
+END
+error_handler.f90
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/Modules/error_handler.f90
+END
+kernel_table.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/kernel_table.f90
+END
+stick_set.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/stick_set.f90
+END
+noncol.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/Modules/noncol.f90
+END
+read_namelists.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/41/branches/5/Modules/read_namelists.f90
+END
+version.f90.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/version.f90.in
+END
+read_xml.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/read_xml.f90
+END
+dspev_drv.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/dspev_drv.f90
+END
+parser.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/Modules/parser.f90
+END
+bz_form.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/bz_form.f90
+END
+generate_function.f90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/Modules/generate_function.f90
+END
+mp_diag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/mp_diag.f90
+END
+wrappers.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/wrappers.f90
+END
+fft_types.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/fft_types.f90
+END
+ptoolkit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/ptoolkit.f90
+END
+mp_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/mp_base.f90
+END
+xc_rVV10.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/xc_rVV10.f90
+END
+random_numbers.f90
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/Modules/random_numbers.f90
+END
+run_info.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/run_info.f90
+END
+griddim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/griddim.f90
+END
+xml_input.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/xml_input.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/Modules/Makefile
+END
+mp_pots.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/Modules/mp_pots.f90
+END
+read_uspp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/read_uspp.f90
+END
+mp_world.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/mp_world.f90
+END
+kind.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/Modules/kind.f90
+END
+basic_algebra_routines.f90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/Modules/basic_algebra_routines.f90
+END
+bfgs_module.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/bfgs_module.f90
+END
+io_files.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/Modules/io_files.f90
+END
+upf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/Modules/upf.f90
+END
+read_pseudo.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/read_pseudo.f90
+END
+fft_parallel.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/fft_parallel.f90
+END
+read_upf_v1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/read_upf_v1.f90
+END
+read_upf_v2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/41/branches/5/Modules/read_upf_v2.f90
+END
+wave_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/wave_base.f90
+END
+mp_global.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/mp_global.f90
+END
+coulomb_vcut.f90
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/Modules/coulomb_vcut.f90
+END
+descriptors.f90
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/Modules/descriptors.f90
+END
+ions_base.f90
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/Modules/ions_base.f90
+END
+parameters.f90
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/Modules/parameters.f90
+END

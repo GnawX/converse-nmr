@@ -1,0 +1,27 @@
+#summary Getting and compiling the code
+#labels Tutorial
+
+= Getting the code =
+
+You can download the code by SVN:
+{{{
+svn checkout http://converse-nmr.googlecode.com/svn/trunk/ converse-nmr
+}}}
+
+= Compiling the code =
+
+Enter the `converse-nmr` directory and type:
+{{{
+./configure [--enable-parallel] [F90=...] [F77=...] [CC=...] [LIBDIRS="..."]
+}}}
+where `LIBDIRS` is a list of directories, separated by spaces, to search
+for missing libraries (BLAS, LAPACK, MKL, FFTW, ...). Optionally, you can
+edit `make.sys` to fine tune the compilation options.
+
+For a more in-depth guide to configuring and compiling the code, read the
+[http://www.quantum-espresso.org/user_guide/user_guide.html Quantum-Espresso user's guide].
+
+Finally, you can build the code by:
+{{{
+make pw pp
+}}}

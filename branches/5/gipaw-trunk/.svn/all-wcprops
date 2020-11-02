@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/46/branches/5/gipaw-trunk
+END
+compare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/43/branches/5/gipaw-trunk/compare.sh
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/43/branches/5/gipaw-trunk/configure
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/43/branches/5/gipaw-trunk/LICENSE
+END
+makedeps.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/43/branches/5/gipaw-trunk/makedeps.sh
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/43/branches/5/gipaw-trunk/configure.ac
+END
+config.log
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/43/branches/5/gipaw-trunk/config.log
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/43/branches/5/gipaw-trunk/TODO
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/43/branches/5/gipaw-trunk/config.status
+END
+makedeps.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/43/branches/5/gipaw-trunk/makedeps.sh.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/43/branches/5/gipaw-trunk/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/43/branches/5/gipaw-trunk/Makefile
+END

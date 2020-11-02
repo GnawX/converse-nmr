@@ -1,0 +1,341 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/47/trunk/flib
+END
+sort_gvec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/flib/sort_gvec.f90
+END
+indxg2l.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/indxg2l.f
+END
+indxl2g.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/indxl2g.f
+END
+npreroc.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/npreroc.f
+END
+avrec.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/avrec.f90
+END
+startup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/startup.f90
+END
+indxg2p.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/indxg2p.f
+END
+syncronize.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/flib/syncronize.f90
+END
+xerbla.f
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/xerbla.f
+END
+ylmr2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/ylmr2.f90
+END
+blockset.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/flib/blockset.f90
+END
+lapack_atlas.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/flib/lapack_atlas.f
+END
+volume.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/volume.f90
+END
+blas.f
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/flib/blas.f
+END
+date_and_tim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/flib/date_and_tim.f90
+END
+simpsn.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/simpsn.f90
+END
+lapack_all.f
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/flib/lapack_all.f
+END
+iglocal.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/iglocal.f90
+END
+erf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/flib/erf.f90
+END
+capital.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/capital.f90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/Makefile
+END
+remove_tot_torque.f90
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/flib/remove_tot_torque.f90
+END
+localdim.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/flib/localdim.f90
+END
+matches.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/matches.f90
+END
+functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/flib/functionals.f90
+END
+invmat_complex.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/flib/invmat_complex.f90
+END
+sph_dbes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/flib/sph_dbes.f90
+END
+infog2l.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/infog2l.f
+END
+blas_mac.f
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/blas_mac.f
+END
+error.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/error.f90
+END
+int_to_char.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/flib/int_to_char.f90
+END
+transto.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/transto.f90
+END
+numroc.f
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/numroc.f
+END
+invmat.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/invmat.f90
+END
+proc_grid.f
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/proc_grid.f
+END
+gridsetup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/flib/gridsetup.f90
+END
+more_functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/flib/more_functionals.f90
+END
+dylmr2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/dylmr2.f90
+END
+dost.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/dost.f90
+END
+latgen.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/latgen.f90
+END
+ilcm.f
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/flib/ilcm.f
+END
+bachel.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/bachel.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/make.depend
+END
+dlamch.f
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/dlamch.f
+END
+ownerof.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/ownerof.f90
+END
+flush_unit.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/flib/flush_unit.f90
+END
+linpack.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/linpack.f90
+END
+localindex.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/flib/localindex.f90
+END
+sph_bes.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/flib/sph_bes.f90
+END
+atomic_number.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/flib/atomic_number.f90
+END
+lapack_mkl.f
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/flib/lapack_mkl.f
+END
+recips.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/flib/recips.f90
+END
+inpfile.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/47/trunk/flib/inpfile.f90
+END
+infog1l.f
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/flib/infog1l.f
+END
+sort.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/flib/sort.f90
+END
+lsda_functionals.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/flib/lsda_functionals.f90
+END

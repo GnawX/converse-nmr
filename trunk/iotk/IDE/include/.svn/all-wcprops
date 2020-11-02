@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/3/trunk/iotk/IDE/include
+END
+IDE_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/iotk/IDE/include/IDE_version.h
+END
+IDE_version.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/iotk/IDE/include/IDE_version.sh
+END

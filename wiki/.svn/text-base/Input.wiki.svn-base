@@ -1,0 +1,23 @@
+#summary Description of input variables
+#labels Tutorial
+
+= Input variables =
+
+In addition to the [http://www.quantum-espresso.org/input-syntax/INPUT_PW.html input variables] of `pw.x`, we have added the following input variables in section `&system`:
+
+|| *Variable* || *Type* || *Description* ||
+||torbmagn  ||boolean ||If .true. calculate the orbital magnetization (default=.false.)||
+||dudk      ||string  ||Method for calculating du/dk. Possible values are 'covariant', 'kdotp', 'singlepoint' (default='kdotp')||
+||m_0_atom  ||integer ||Atom index carrying the nuclear magnetic dipole (default=0 i.e. none)||
+||m_0(1..3) ||real    ||Cartesian components of nuclear dipole, in units of nuclear magneton (default=0.0)||
+||lambda_so(1..3)||real||Cartesian components of electron spin, in units of Bohr magneton (default=0.0)||
+||q_conv_thr||real    ||Convergence threshold for k-dot-p (default=1e-12)||
+||q_gipaw   ||real    ||Small q-vector for covariant derivative, in bohr^-1^ (default=0.01)||
+
+             
+= Important =
+
+  * Real wavefunctions (`K_POINTS GAMMA`) are not supported. For Gamma-point calculations use: `K_POINTS automatic` and `1 1 1 0 0 0`
+  * When computing the EPR g-tensor (`lambda_so(..)` different from zero), the symmetry operations are automatically reduced to account for the electron spin.
+  * When computing the NMR shielding (`m_0(..)` different from zero), the symmetry operations are *not reduced*, therefore you must add `nosym = .true.` in the namelist `&system`. 
+  * The singlepoint method (`dudk='singlepoint'`) might have problems with non-orthogonal cells (we are investigating this issue)

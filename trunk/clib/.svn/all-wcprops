@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/47/trunk/clib
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/clib/stack.c
+END
+fftw.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/clib/fftw.c
+END
+c_mkdir.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/clib/c_mkdir.c
+END
+qsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/clib/qsort.c
+END
+memstat.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/trunk/clib/memstat.c
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/clib/make.depend
+END
+fftw.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/clib/fftw.h
+END
+fft_stick.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/clib/fft_stick.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/clib/Makefile
+END
+indici.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/clib/indici.c
+END
+konst.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/clib/konst.h
+END
+cptimer.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/clib/cptimer.c
+END

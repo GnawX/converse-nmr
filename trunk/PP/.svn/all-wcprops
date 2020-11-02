@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/3/trunk/PP
+END
+local_dos_mag.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PP/local_dos_mag.f90
+END
+stop_pp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/stop_pp.f90
+END
+plotrho.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/plotrho.f90
+END
+d_matrix_nc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/d_matrix_nc.f90
+END
+do_shift_ew.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/do_shift_ew.f90
+END
+sumpdos.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/sumpdos.f90
+END
+openfil_pp.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PP/openfil_pp.f90
+END
+add_shift_us.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/add_shift_us.f90
+END
+poormanwannier.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PP/poormanwannier.f90
+END
+addusdens1d.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/addusdens1d.f90
+END
+plotband.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PP/plotband.f90
+END
+add_shift_lc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/add_shift_lc.f90
+END
+stm.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PP/stm.f90
+END
+plot_io.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/plot_io.f90
+END
+write_p_avg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/write_p_avg.f90
+END
+compute_ppsi.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/compute_ppsi.f90
+END
+hexspinsym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PP/hexspinsym.f90
+END
+cubicspinsym.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/cubicspinsym.f90
+END
+postproc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PP/postproc.f90
+END
+plotproj.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PP/plotproj.f90
+END
+xctest.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PP/xctest.f90
+END
+do_initial_state.f90
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/PP/do_initial_state.f90
+END
+dipole.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PP/dipole.f90
+END
+cube.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PP/cube.f90
+END
+make.depend
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/make.depend
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PP/.cvsignore
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PP/Makefile
+END
+local_dos1d.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/local_dos1d.f90
+END
+wfdd.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PP/wfdd.f90
+END
+dos.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PP/dos.f90
+END
+atomic_wfc_nc_proj.f90
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/PP/atomic_wfc_nc_proj.f90
+END
+qexml.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PP/qexml.f90
+END
+start_postproc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/PP/start_postproc.f90
+END
+work_function.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PP/work_function.f90
+END
+bands.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PP/bands.f90
+END
+pw_export.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PP/pw_export.f90
+END
+plan_avg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PP/plan_avg.f90
+END
+initial_state.f90
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/PP/initial_state.f90
+END
+compute_sigma_avg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/PP/compute_sigma_avg.f90
+END
+smallgk.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/smallgk.f90
+END
+add_shift_cc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/add_shift_cc.f90
+END
+dosg.f90
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/PP/dosg.f90
+END
+sym_band.f90
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/PP/sym_band.f90
+END
+local_dos.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PP/local_dos.f90
+END
+xsf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PP/xsf.f90
+END
+chdens.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PP/chdens.f90
+END
+cgracsc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/cgracsc.f90
+END
+pw2casino.f90
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/PP/pw2casino.f90
+END
+pw2wannier90.f90
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PP/pw2wannier90.f90
+END
+ggen1d.f90
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/PP/ggen1d.f90
+END
+pw2gw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/PP/pw2gw.f90
+END
+elf.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PP/elf.f90
+END
+d_matrix_so.f90
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/PP/d_matrix_so.f90
+END
+epsilon.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/epsilon.f90
+END
+average.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/average.f90
+END
+projwfc.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/projwfc.f90
+END
+plot_whole_cell.f90
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PP/plot_whole_cell.f90
+END
+voronoy.f90
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/PP/voronoy.f90
+END
+punch_plot.f90
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/PP/punch_plot.f90
+END
+cft.f90
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/PP/cft.f90
+END

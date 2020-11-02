@@ -1,0 +1,1859 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/35/branches/5/PW/tests
+END
+noncolin-constrain_angle.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_angle.in
+END
+lsda.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/lsda.ref
+END
+pbe0-si222.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si222.ref
+END
+lattice-ibrav5-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav5-kauto.in
+END
+xdm.ref
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/xdm.ref
+END
+paw-vcbfgs.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/paw-vcbfgs.in
+END
+scf.ref1
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/scf.ref1
+END
+scf.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/scf.ref2
+END
+metal-fermi_dirac.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/metal-fermi_dirac.in
+END
+atom.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/atom.ref
+END
+cluster1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/cluster1.ref
+END
+md-pot_extrap1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/md-pot_extrap1.ref
+END
+electric0.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/electric0.in
+END
+lattice-ibrav14-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav14-kauto.in
+END
+lattice-ibrav7.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav7.in
+END
+uspp2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/uspp2.ref
+END
+scf.ref
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/scf.ref
+END
+metal-tetrahedra.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/metal-tetrahedra.in
+END
+eval_infix.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/eval_infix.in
+END
+paw-atom_l=2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_l=2.ref
+END
+lsda-mixing_localTF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_localTF.ref
+END
+md-wfc_extrap1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/md-wfc_extrap1.ref
+END
+uspp-mixing_ndim.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_ndim.in
+END
+pbe0-si111.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si111.ref
+END
+uspp-mixing_ndim.ref
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_ndim.ref
+END
+lattice-ibrav3-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav3-kauto.ref
+END
+scf-disk_io.ref
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.ref
+END
+lattice-ibrav2.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav2.in
+END
+lattice-ibrav-5-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-5-kauto.in
+END
+vc-relax2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax2.ref
+END
+berry.ref1
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/berry.ref1
+END
+berry.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/berry.ref2
+END
+uspp-singlegrid.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-singlegrid.in
+END
+scf-occ.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/scf-occ.in
+END
+pbeq2d.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/pbeq2d.in
+END
+lda+U_force.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U_force.in
+END
+spinorbit.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.ref
+END
+lattice-ibrav12-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav12-kauto.ref
+END
+lsda-cg.ref
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-cg.ref
+END
+pbe0-si222.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si222.in
+END
+vc-md1.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/vc-md1.in
+END
+vdw-d.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/vdw-d.ref
+END
+lattice-ibrav11.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav11.in
+END
+vdw3.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/vdw3.ref
+END
+scf-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/scf-kauto.in
+END
+vc-md1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/vc-md1.ref
+END
+lattice-ibrav7-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav7-kauto.in
+END
+vc-relax1.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax1.in
+END
+metal-tetrahedra.in2
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/metal-tetrahedra.in2
+END
+scf-mixing_beta.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_beta.ref
+END
+lda+U_gamma.ref
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U_gamma.ref
+END
+relax-el.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/relax-el.in
+END
+lattice-ibrav0-cell_parameters-ang.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters-ang.in
+END
+paw-atom_lda.ref
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_lda.ref
+END
+lattice-ibrav2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav2.ref
+END
+atom-lsda.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/atom-lsda.in
+END
+vdw2.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/vdw2.in
+END
+lattice-ibrav6.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav6.ref
+END
+relax2.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/relax2.in
+END
+paw-atom_spin_lda.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_spin_lda.in
+END
+lattice-ibrav11.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav11.ref
+END
+md-pot_extrap1.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/md-pot_extrap1.in
+END
+lattice-ibrav8-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav8-kauto.ref
+END
+eval_infix.in2
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/eval_infix.in2
+END
+lsda-nelup+neldw.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-nelup+neldw.in
+END
+electric1.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/electric1.in
+END
+lattice-ibrav8.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav8.in
+END
+lattice-ibrav-5-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-5-kauto.ref
+END
+uspp.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/uspp.ref2
+END
+electric0.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/electric0.ref
+END
+lsda.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/lsda.in
+END
+b3lyp-h2o.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/b3lyp-h2o.ref
+END
+lattice-ibrav9-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav9-kauto.in
+END
+paw-atom_lda.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_lda.in
+END
+metal.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/metal.ref
+END
+cluster2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/cluster2.ref
+END
+lattice-ibrav3.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav3.in
+END
+atom-pbe.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/atom-pbe.ref
+END
+paw-atom_tqr.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_tqr.in
+END
+metaGGA.ref
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/metaGGA.ref
+END
+md-pot_extrap2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/md-pot_extrap2.ref
+END
+metal-tetrahedra.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/metal-tetrahedra.ref2
+END
+lattice-ibrav-12.ref
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-12.ref
+END
+hse-si222.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si222.in
+END
+lattice-ibrav0-cell_parameters-ang.ref
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters-ang.ref
+END
+relax-el.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/relax-el.ref
+END
+md-wfc_extrap2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/md-wfc_extrap2.ref
+END
+vc-md2.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/vc-md2.in
+END
+lattice-ibrav12.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav12.in
+END
+scf-k0.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/scf-k0.ref
+END
+lattice-ibrav2-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav2-kauto.in
+END
+uspp-mixing_localTF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_localTF.ref
+END
+scf-wf_collect.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/scf-wf_collect.in
+END
+md.in
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/34/branches/5/PW/tests/md.in
+END
+cluster1.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/cluster1.in
+END
+lattice-ibrav5-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav5-kauto.ref
+END
+vc-relax2.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax2.in
+END
+lsda.in2
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/lsda.in2
+END
+lattice-ibrav-12.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-12.in
+END
+lattice-ibrav11-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav11-kauto.in
+END
+vc-relax3.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax3.ref
+END
+scf-mixing_ndim.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_ndim.in
+END
+paw-atom_spin.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_spin.in
+END
+lsda-nelup+neldw.ref
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-nelup+neldw.ref
+END
+noncolin-constrain_total.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_total.in
+END
+pbe0-si111.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si111.in
+END
+lattice-ibrav14-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav14-kauto.ref
+END
+vdw3.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/vdw3.in
+END
+uspp-cg.ref
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-cg.ref
+END
+lsda-tot_magnetization.ref
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-tot_magnetization.ref
+END
+vdw4.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/vdw4.ref
+END
+scf.in1
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/scf.in1
+END
+scf-mixing_TF.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_TF.in
+END
+scf.in2
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/scf.in2
+END
+vc-md2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/vc-md2.ref
+END
+metaGGA.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/metaGGA.in
+END
+md-pot_extrap2.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/md-pot_extrap2.in
+END
+lda+U.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U.ref
+END
+noncolin-constrain_atomic.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_atomic.in
+END
+scf-disk_io.in1
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.in1
+END
+electric2.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/electric2.in
+END
+scf-disk_io.in2
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.in2
+END
+eval_infix.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/eval_infix.ref2
+END
+scf-allfrac.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/scf-allfrac.in
+END
+lattice-ibrav3.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav3.ref
+END
+lattice-ibrav9.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav9.in
+END
+md-wfc_extrap1.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/md-wfc_extrap1.in
+END
+uspp-singlegrid.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-singlegrid.ref
+END
+lattice-ibrav7.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav7.ref
+END
+relax-pot_extrap2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/relax-pot_extrap2.ref
+END
+spinorbit.in1
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.in1
+END
+lattice-ibrav4-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav4-kauto.in
+END
+atom-sigmapbe.ref
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/atom-sigmapbe.ref
+END
+scf-gamma.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/scf-gamma.in
+END
+spinorbit.in2
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.in2
+END
+lattice-ibrav2-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav2-kauto.ref
+END
+lattice-ibrav12.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav12.ref
+END
+lda+U-noU.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U-noU.in
+END
+atom.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/atom.in
+END
+lda+U_gamma.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U_gamma.in
+END
+scf-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/scf-kauto.ref
+END
+atom-pbe.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/atom-pbe.in
+END
+lattice-ibrav4.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav4.in
+END
+metal-gaussian.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/metal-gaussian.in
+END
+lsda.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/lsda.ref2
+END
+lattice-ibrav13-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav13-kauto.in
+END
+dipole.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/dipole.in
+END
+lattice-ibrav11-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav11-kauto.ref
+END
+lsda-mixing_localTF.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_localTF.in
+END
+vdw-d.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/vdw-d.in
+END
+electric1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/electric1.ref
+END
+scf-occ.ref
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/scf-occ.ref
+END
+pbeq2d.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/pbeq2d.ref
+END
+uspp-mixing_localTF.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_localTF.in
+END
+noncolin.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.ref
+END
+uspp.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/uspp.in
+END
+lattice-ibrav13.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav13.in
+END
+b3lyp-O.ref
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/b3lyp-O.ref
+END
+uspp.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/uspp.ref
+END
+scf-wf_collect.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/scf-wf_collect.ref
+END
+cluster2.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/cluster2.in
+END
+vc-relax3.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax3.in
+END
+paw-vcbfgs.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/paw-vcbfgs.ref
+END
+scf-mixing_localTF.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_localTF.in
+END
+scf-ncpp.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/scf-ncpp.in
+END
+relax-damped.ref
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/relax-damped.ref
+END
+cluster3.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/cluster3.ref
+END
+relax.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/relax.in
+END
+hse-si111.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si111.in
+END
+lda+U-user_ns.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U-user_ns.in
+END
+uspp1-coulomb.ref
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/uspp1-coulomb.ref
+END
+paw-atom_l=2.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_l=2.in
+END
+noncolin-constrain_atomic.ref
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_atomic.ref
+END
+paw-atom_tqr.ref
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_tqr.ref
+END
+scf-k0.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/scf-k0.in
+END
+vdw4.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/vdw4.in
+END
+lda+U_force.ref
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U_force.ref
+END
+atom-sigmapbe.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/atom-sigmapbe.in
+END
+lsda-mixing_ndim.ref
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_ndim.ref
+END
+paw-atom.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom.ref
+END
+lattice-ibrav6-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav6-kauto.in
+END
+metal.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/metal.in
+END
+relax2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/relax2.ref
+END
+lattice-ibrav7-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav7-kauto.ref
+END
+uspp1-coulomb.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/uspp1-coulomb.in
+END
+uspp-mixing_TF.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_TF.in
+END
+vc-relax4.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax4.ref
+END
+relax2-bfgs_ndim3.ref
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/relax2-bfgs_ndim3.ref
+END
+scf-mixing_localTF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_localTF.ref
+END
+scf-mixing_ndim.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_ndim.ref
+END
+md-wfc_extrap2.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/md-wfc_extrap2.in
+END
+metal.in2
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/metal.in2
+END
+b3lyp-O.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/b3lyp-O.in
+END
+scf-nofrac.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/scf-nofrac.ref
+END
+vdw1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/vdw1.ref
+END
+lattice-ibrav0-cell_parameters+a.ref
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters+a.ref
+END
+berry.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/berry.ref
+END
+check-pw.x.j
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/check-pw.x.j
+END
+hse-si444.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si444.ref
+END
+pbe0-si444.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si444.in
+END
+scf-mixing_beta.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_beta.in
+END
+paw-atom_spin_lda.ref
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_spin_lda.ref
+END
+relax2-bfgs_ndim3.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/relax2-bfgs_ndim3.in
+END
+lattice-ibrav0-cell_parameters+celldm.ref
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters+celldm.ref
+END
+scf-cg.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/scf-cg.ref
+END
+lattice-ibrav5.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav5.in
+END
+scf-ncpp.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/scf-ncpp.ref
+END
+metal-gaussian.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/metal-gaussian.ref
+END
+lattice-ibrav4.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav4.ref
+END
+lattice-ibrav8.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav8.ref
+END
+paw-atom.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom.in
+END
+metal.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/metal.ref2
+END
+vdw-ts.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/vdw-ts.ref
+END
+lattice-ibrav14.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav14.in
+END
+lattice-ibrav8-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav8-kauto.in
+END
+lattice-ibrav13.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav13.ref
+END
+scf-gamma.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/scf-gamma.ref
+END
+lattice-ibrav4-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav4-kauto.ref
+END
+cluster3.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/cluster3.in
+END
+vc-relax4.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax4.in
+END
+noncolin.ref1
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.ref1
+END
+noncolin.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.ref2
+END
+uspp1.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/uspp1.in
+END
+lsda-mixing_TF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_TF.ref
+END
+paw-bfgs.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/paw-bfgs.ref
+END
+b3lyp-h2o.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/b3lyp-h2o.in
+END
+uspp-mixing_TF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-mixing_TF.ref
+END
+lattice-ibrav13-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav13-kauto.ref
+END
+electric2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/electric2.ref
+END
+hse-si222.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si222.ref
+END
+lattice-ibrav1-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav1-kauto.in
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/PW/tests/README
+END
+noncolin-constrain_angle.ref
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_angle.ref
+END
+scf-mixing_TF.ref
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/scf-mixing_TF.ref
+END
+relax-damped.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/relax-damped.in
+END
+paw-bfgs.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/paw-bfgs.in
+END
+lattice-ibrav10-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav10-kauto.in
+END
+scf-kcrys.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/scf-kcrys.ref
+END
+cluster4.ref
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/cluster4.ref
+END
+scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/PW/tests/scf.in
+END
+uspp1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/uspp1.ref
+END
+lsda-tot_magnetization.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-tot_magnetization.in
+END
+hse-si111.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si111.ref
+END
+relax.ref
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/relax.ref
+END
+dipole.ref
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/dipole.ref
+END
+lsda-mixing_ndim.in
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_ndim.in
+END
+scf-allfrac.ref
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/scf-allfrac.ref
+END
+hse-si444.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/hse-si444.in
+END
+paw-atom_spin.ref
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/paw-atom_spin.ref
+END
+atom-lsda.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/atom-lsda.ref
+END
+lattice-ibrav-12-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-12-kauto.in
+END
+metal-tetrahedra.ref
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/PW/tests/metal-tetrahedra.ref
+END
+lattice-ibrav-12-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-12-kauto.ref
+END
+lattice-ibrav1-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav1-kauto.ref
+END
+noncolin.in1
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.in1
+END
+lda+U.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U.in
+END
+noncolin.in2
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.in2
+END
+lsda-mixing_TF.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-mixing_TF.in
+END
+lattice-ibrav9-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav9-kauto.ref
+END
+vc-relax1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/vc-relax1.ref
+END
+uspp.in2
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/uspp.in2
+END
+metal-fermi_dirac.ref
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/34/branches/5/PW/tests/metal-fermi_dirac.ref
+END
+lattice-ibrav6.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav6.in
+END
+noncolin-cg.ref
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-cg.ref
+END
+lattice-ibrav10-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav10-kauto.ref
+END
+lda+U-user_ns.ref
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U-user_ns.ref
+END
+berry.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/berry.in
+END
+vdw-ts.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/vdw-ts.in
+END
+vdw2.ref
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/vdw2.ref
+END
+lattice-ibrav-5.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-5.in
+END
+eval_infix.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/eval_infix.ref
+END
+scf-disk_io.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.in
+END
+lattice-ibrav3-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav3-kauto.in
+END
+pbe0-si444.ref
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/pbe0-si444.ref
+END
+cluster4.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/cluster4.in
+END
+md.ref
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/PW/tests/md.ref
+END
+noncolin-cg.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-cg.in
+END
+lattice-ibrav1.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav1.in
+END
+uspp2.in
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/PW/tests/uspp2.in
+END
+lsda-cg.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/lsda-cg.in
+END
+lattice-ibrav12-kauto.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav12-kauto.in
+END
+lattice-ibrav0-cell_parameters.ref
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters.ref
+END
+lattice-ibrav1.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav1.ref
+END
+uspp-cg.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/PW/tests/uspp-cg.in
+END
+lattice-ibrav5.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav5.ref
+END
+lattice-ibrav0-cell_parameters+a.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters+a.in
+END
+lattice-ibrav9.ref
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav9.ref
+END
+noncolin-constrain_total.ref
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin-constrain_total.ref
+END
+lattice-ibrav10.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav10.in
+END
+xdm.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/34/branches/5/PW/tests/xdm.in
+END
+lattice-ibrav10.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav10.ref
+END
+lattice-ibrav-5.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav-5.ref
+END
+spinorbit.ref1
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.ref1
+END
+lattice-ibrav14.ref
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav14.ref
+END
+spinorbit.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.ref2
+END
+lattice-ibrav0-cell_parameters+celldm.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters+celldm.in
+END
+scf-cg.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/scf-cg.in
+END
+lattice-ibrav6-kauto.ref
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav6-kauto.ref
+END
+scf-kcrys.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/scf-kcrys.in
+END
+berry.in1
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/berry.in1
+END
+berry.in2
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/PW/tests/berry.in2
+END
+lda+U-noU.ref
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/lda+U-noU.ref
+END
+lattice-ibrav0-cell_parameters.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/34/branches/5/PW/tests/lattice-ibrav0-cell_parameters.in
+END
+spinorbit.in
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/PW/tests/spinorbit.in
+END
+noncolin.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/PW/tests/noncolin.in
+END
+vdw1.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/PW/tests/vdw1.in
+END
+scf-disk_io.ref1
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.ref1
+END
+scf-nofrac.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/PW/tests/scf-nofrac.in
+END
+scf-disk_io.ref2
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/branches/5/PW/tests/scf-disk_io.ref2
+END

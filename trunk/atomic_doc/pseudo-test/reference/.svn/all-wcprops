@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/atomic_doc/pseudo-test/reference
+END
+ni.out
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/ni.out
+END
+ga.out
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/ga.out
+END
+rh.out
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/rh.out
+END
+al.out
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/al.out
+END
+o.out
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/o.out
+END
+s.out
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/s.out
+END
+as.out
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/atomic_doc/pseudo-test/reference/as.out
+END

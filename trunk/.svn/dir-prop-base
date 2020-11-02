@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 84
+*.o
+*.a
+*.mod
+*.x
+*~
+bin
+config.log
+config.status
+configure.msg
+make.sys
+iotk
+S3DE
+
+
+END

@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 58
+*.o
+*.a
+*.mod
+*.x
+*~
+config.log
+config.status
+makedeps.sh
+
+END

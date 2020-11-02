@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/35/branches/5/dev-tools/helpdoc.d
+END
+robodoc.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/robodoc.tcl
+END
+parseTags.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/parseTags.tcl
+END
+tclIndex
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/tclIndex
+END
+txt_leave.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/txt_leave.tcl
+END
+txt_enter.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/txt_enter.tcl
+END
+readSchema.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/readSchema.tcl
+END
+guihelp.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/guihelp.tcl
+END
+helpdoc.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/helpdoc.tcl
+END
+txt.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/txt.tcl
+END
+tree.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/tree.tcl
+END
+xml.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/xml.tcl
+END
+auxil.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/auxil.tcl
+END
+gui.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/gui.tcl
+END
+syntax_txt.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/dev-tools/helpdoc.d/syntax_txt.tcl
+END

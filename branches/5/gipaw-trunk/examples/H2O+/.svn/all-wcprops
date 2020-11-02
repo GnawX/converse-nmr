@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/pseudo
+END
+H2O+_hyperfine.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_hyperfine.in
+END
+H2O+_hyperfine.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_hyperfine.out
+END
+H2O+_scf.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_scf.in
+END
+H2O+_scf.out
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_scf.out
+END
+H2O+_g-tensor.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_g-tensor.in
+END
+H2O+_g-tensor.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/43/branches/5/gipaw-trunk/examples/H2O+/H2O+_g-tensor.out
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/3/trunk/iotk/doc
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/iotk/doc/.cvsignore
+END
+file_format.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/iotk/doc/file_format.txt
+END
+binary_format.tex
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/iotk/doc/binary_format.tex
+END
+manual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/iotk/doc/manual.txt
+END
+manpages
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/iotk/doc/manpages
+END

@@ -1,0 +1,90 @@
+#summary H2CN EPR g-tensor
+#labels Tutorial
+
+= Introduction =
+
+To calculate the EPR g-tensor is sufficient to perform three SCF calculation, with
+the electron spin aligned along the three cartesian directions. In the current
+version of the code, the calculation is collinear. This is a good approximation
+for molecule radicals and for ferromagnetic systems.
+
+Here is the input file, `H2CN-converse.in.tmpl`:
+{{{
+&control
+    prefix       = 'h2cn'
+    calculation  = 'scf'
+    restart_mode = 'from_scratch'
+    pseudo_dir   = './pseudo/'
+    outdir       = './scratch/'
+    verbosity    = 'high'
+/
+&system
+    ibrav        = 1
+    celldm(1)    = 20
+    nat          = 4
+    ntyp         = 3
+    ecutwfc      = 90
+    occupations  = 'fixed'
+    nspin        = 2
+    nbnd = 12, nelec = 11, nelup = 6, neldw = 5
+    starting_magnetization(1) = 0.5
+    starting_magnetization(2) = 0.0
+    spline_ps    = .true.
+    nosym        = .true.
+    torbmagn         = .true.
+    dudk             = 'kdotp'
+    lambda_so(@DIR@) = 1.0
+/
+&electrons
+    diagonalization = 'david'
+    diago_thr_init = 1e-4
+    conv_thr = 1e-8
+/
+ATOMIC_SPECIES
+C  12.0000    C.pbe-tm-new-gipaw.UPF
+N  14.0000    N.pbe-tm-new-gipaw.UPF
+H   1.0000    H.pbe-tm-new-gipaw.UPF
+
+ATOMIC_POSITIONS angstrom
+C        0.000000000   0.000000000  -0.498610113
+N        0.000000000   0.000000000   0.758429607
+H        0.000000000   0.943863931  -1.078243747
+H        0.000000000  -0.943863931  -1.078243747
+
+K_POINTS automatic
+1 1 1 0 0 0
+}}}
+
+The spin-orbit interaction is activated by the `lambda_so` variable. You can
+run the three calculations with the following shell script:
+{{{
+#!/bin/sh
+pw=$HOME/Codes/converse-nmr/trunk/PW/pw.x
+molecule=H2CN
+cart=(dummy x y z)
+
+for dir in 1 2 3
+do
+  base=$molecule-converse-${cart[$dir]}
+  sed "s/@DIR@/$dir/" <$molecule-converse.in.tmpl >$base.in
+  $pw <$base.in >$base.out
+done
+}}}
+
+The deviation in ppm of g-tensor from g,,e,,=2.0023318361 can be extracted from the output files by:
+{{{
+grep "delta_g total" H2CN-converse*.out
+H2CN-converse-x.out:     delta_g total      =      3207.8816        0.0000        0.0000
+H2CN-converse-y.out:     delta_g total      =         0.0000      -15.4485        0.0000
+H2CN-converse-z.out:     delta_g total      =         0.0000        0.0000    -1916.1246
+}}}
+
+This g-tensor does not include the spin-other-orbit contribution, which is usually
+small. By comparison, a linear response (_classic GIPAW_) calculation, including
+the SOO term, yields:
+{{{
+Delta_g total (SOO as in Eq.(7)):
+          3197.59          0.00          0.00
+             0.00        -64.78          0.00
+             0.00          0.00      -1925.13
+}}}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/31/trunk/tutorial_files/NMR-quartz
+END
+quartz-converse.in.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/31/trunk/tutorial_files/NMR-quartz/quartz-converse.in.tmpl
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/31/trunk/tutorial_files/NMR-quartz/pseudo
+END
+job.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/31/trunk/tutorial_files/NMR-quartz/job.sh
+END

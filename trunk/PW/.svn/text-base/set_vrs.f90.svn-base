@@ -1,0 +1,84 @@
+!
+! Copyright (C) 2001 PWSCF group
+! This file is distributed under the terms of the
+! GNU General Public License. See the file `License'
+! in the root directory of the present distribution,
+! or http://www.gnu.org/copyleft/gpl.txt .
+!
+!--------------------------------------------------------------------
+subroutine set_vrs (vrs, vltot, vr, nrxx, nspin, doublegrid)
+  !--------------------------------------------------------------------
+  ! set the total local potential vrs on the smooth mesh to be used in 
+  ! h_psi, adding the (spin dependent) scf (H+xc) part and the sum of 
+  ! all the local pseudopotential contributions.
+  !
+  USE kinds
+  implicit none
+
+  integer :: nspin, nrxx
+  ! input: number of spin components: 1 if lda, 2 if lsd, 4 if noncolinear
+  ! input: the fft grid dimension
+  real(DP) :: vrs (nrxx, nspin), vltot (nrxx), vr (nrxx, nspin)
+  ! output: total local potential on the smooth grid
+  !         vrs=vltot+vr
+  ! input: the total local pseudopotential
+  ! input: the scf(H+xc) part of the local potential
+  logical :: doublegrid
+  ! input: true if a doublegrid is used
+
+  integer:: is
+
+  do is = 1, nspin
+     !
+     ! define the total local potential (external + scf) for each spin ...
+     !
+     if (is > 1 .and. nspin == 4) then
+        !
+        ! noncolinear case: only the first component contains vltot
+        !
+        vrs (:, is) = vr (:, is)
+     else
+        vrs (:, is) = vltot (:) + vr (:, is)
+     end if
+     !
+     ! ... and interpolate it on the smooth mesh if necessary
+     !
+     if (doublegrid) call interpolate (vrs (1, is), vrs (1, is), - 1)
+  enddo
+  return
+
+end subroutine set_vrs
+
+!<ceres>
+!--------------------------------------------------------------------
+subroutine set_dvrs (dvrs, vrs, nrxxs, nspin)
+  !--------------------------------------------------------------------
+  ! gradient of the total local potential vrs on the smooth mesh
+  !
+  USE kinds
+  USE g_tensor_module,      ONLY : lambda_so
+  USE cell_base,            ONLY : tpiba
+  USE gvect,                ONLY : nlm, ngm, g, nl
+  USE gsmooth,              ONLY : nls, ngms, nr1s, nr2s, nr3s, &
+                                   nrx1s, nrx2s, nrx3s
+  implicit none
+
+  integer :: nspin, nrxxs
+  real(dp) :: dvrs(nrxxs, nspin, 3), vrs (nrxxs, nspin)
+  real(dp), allocatable :: aux(:,:)
+  integer:: is, ig, ipol
+
+  if (all(lambda_so == 0.d0)) return
+
+  allocate( aux(3,nrxxs) )
+  do is = 1, nspin
+    call gradient( nrx1s, nrx2s, nrx3s, nr1s, nr2s, nr3s, nrxxs, &
+                   vrs(1,is), ngm, g, nl, aux )
+    do ipol = 1, 3
+      dvrs(1:nrxxs,is,ipol) = aux(ipol,1:nrxxs)
+    enddo
+  enddo
+  deallocate (aux)
+
+end subroutine set_dvrs
+!</ceres>

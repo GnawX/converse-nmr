@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/atomic_doc/paw-gen-test/reference
+END
+OLDA.RRKJ3.PAW
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/OLDA.RRKJ3.PAW
+END
+O_PBE_NLCC.spin.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_PBE_NLCC.spin.out
+END
+O_PBE_NLCC.gen.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_PBE_NLCC.gen.out
+END
+O_LDA.test.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_LDA.test.out
+END
+Cu_LDA_NLCC.gen.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/Cu_LDA_NLCC.gen.out
+END
+OPBE.RRKJ3.PAW
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/OPBE.RRKJ3.PAW
+END
+O_PBE_NLCC.test.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_PBE_NLCC.test.out
+END
+run-test.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/run-test.out
+END
+CuLDA.RRKJ3.PAW
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/CuLDA.RRKJ3.PAW
+END
+Cu_LDA_NLCC.test.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/Cu_LDA_NLCC.test.out
+END
+O_LDA.gen.out
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_LDA.gen.out
+END
+O_LDA.spin.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/atomic_doc/paw-gen-test/reference/O_LDA.spin.out
+END

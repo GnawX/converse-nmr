@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/46/branches/5
+END
+environment_variables
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/environment_variables
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/34/branches/5/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/34/branches/5/Makefile
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/34/branches/5/configure
+END
+License
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/34/branches/5/License
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/34/branches/5/TODO
+END

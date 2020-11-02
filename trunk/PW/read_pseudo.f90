@@ -1,0 +1,276 @@
+!
+! Copyright (C) 2001-2007 PWSCF group
+! This file is distributed under the terms of the
+! GNU General Public License. See the file `License'
+! in the root directory of the present distribution,
+! or http://www.gnu.org/copyleft/gpl.txt .
+!
+#include "f_defs.h"
+!
+!-----------------------------------------------------------------------
+subroutine readpp
+  !-----------------------------------------------------------------------
+  !
+  !    Read pseudopotentials
+  !
+  USE kinds,      ONLY : DP
+  USE pseudo_types
+  USE read_upf_module , ONLY : read_pseudo_upf
+  USE read_uspp_module, ONLY : readvan, readrrkj
+  USE upf_to_internal,  ONLY : set_pseudo_upf
+  USE paw,              ONLY : set_paw_upf
+  USE atom,       ONLY : chi, nchi, oc, mesh, msh, r, rab, numeric, xmin, dx
+  USE uspp_param, ONLY : zp, iver, tvanp, newpseudo
+  USE ions_base,  ONLY : ntyp => nsp
+  USE funct,      ONLY : get_iexch, get_icorr, get_igcx, get_igcc
+  USE io_files,   ONLY : pseudo_dir, psfile
+  USE io_global,  ONLY : stdout
+  USE ions_base,  ONLY : zv
+  USE pseud,      ONLY : lmax, lloc
+  USE uspp_param, ONLY : lll, nbeta
+  implicit none
+  !
+  real(DP), parameter :: rcut = 10.d0, eps = 1.0D-08
+  !
+  TYPE (pseudo_upf) :: upf
+  !
+  character(len=256) :: file_pseudo
+  ! file name complete with path
+  real(DP), allocatable :: chi2r(:)
+  real(DP):: norm
+  integer :: iunps, isupf, l, nt, nb, ir, ios
+  integer :: iexch_, icorr_, igcx_, igcc_
+  integer, external :: pseudo_type
+  !
+  iunps = 4
+  l = len_trim (pseudo_dir)
+  do nt = 1, ntyp
+     !
+     ! obsolescent variables, not read from UPF format, no longer used
+     !
+     iver(:,nt) = 0
+     xmin(nt) = 0.d0
+     dx(nt) = 0.d0
+     lmax(nt) = -1
+     lloc(nt) = -1
+     ! 
+     ! for compatibility - numeric is read by read_ncpp
+     !
+     numeric (nt) = .true.
+     !
+     ! add slash at the end if needed
+     !
+     if (pseudo_dir (l:l) .ne.'/') then
+        file_pseudo = pseudo_dir (1:l) //'/'//psfile (nt)
+     else
+        file_pseudo = pseudo_dir (1:l) //psfile (nt)
+     endif
+     !
+     open (unit = iunps, file = file_pseudo, status = 'old', form = &
+          'formatted', iostat = ios)
+     call errore ('readpp', 'file '//trim(file_pseudo)//' not found', ios)
+     !
+     ! read UPF  pseudopotentials - the UPF format is detected via the
+     ! presence of the keyword '<PP_HEADER>' at the beginning of the file
+     !
+     call read_pseudo_upf(iunps, upf, isupf)
+     !
+     if (isupf == 0) then
+        call set_pseudo_upf (nt, upf)
+        call set_paw_upf (nt, upf)
+        CALL deallocate_pseudo_upf( upf )
+        ! for compatibility with old formats
+        newpseudo (nt) = .true.
+        lmax(nt) = max ( lmax(nt), MAXVAL( lll( 1:nbeta(nt), nt) ) )
+        !
+     else
+        rewind (unit = iunps)
+        !
+        !     The type of the pseudopotential is determined by the file name:
+        !    *.vdb or *.van  Vanderbilt US pseudopotential code  pseudo_type=1
+        !    *.RRKJ3         Andrea's   US new code              pseudo_type=2
+        !    none of the above: PWSCF norm-conserving format     pseudo_type=0
+        !
+        if ( pseudo_type (psfile (nt) ) == 1 .or. &
+             pseudo_type (psfile (nt) ) == 2 ) then
+           !
+           !    newpseudo distinguishes beteween US pseudopotentials
+           !    produced by Vanderbilt code and those produced
+           !    by Andrea's atomic code.
+           !
+           newpseudo (nt) = ( pseudo_type (psfile (nt) ) == 2 )
+           !
+           if ( newpseudo (nt) ) then
+              call readrrkj (nt, iunps)
+           else
+              call readvan (nt, iunps)
+           endif
+           !
+           lmax(nt) = max ( lmax(nt), MAXVAL( lll( 1:nbeta(nt), nt) ) )
+           !
+        else
+           tvanp (nt) = .false.
+           newpseudo (nt) = .false.
+           ! 
+           call read_ncpp (nt, iunps)
+           !
+        endif
+     endif
+     close (iunps)
+     !
+     ! ... Zv = valence charge of the (pseudo-)atom, read from PP files,
+     ! ... is set equal to Zp = pseudo-charge of the pseudopotential
+     !
+     zv(nt) = zp(nt)
+     !
+     if (nt == 1) then
+        iexch_ = get_iexch()
+        icorr_ = get_icorr()
+        igcx_  = get_igcx()
+        igcc_  = get_igcc()
+     else
+        if ( iexch_ /= get_iexch() .or. icorr_ /= get_icorr() .or. &
+             igcx_  /= get_igcx()  .or. igcc_ /= get_igcc() ) then
+           CALL errore( 'readpp','inconsistent DFT read',nt)
+        end if
+     end if
+     !
+     ! the radial grid is defined up to r(mesh) but we introduce 
+     ! an auxiliary variable msh to limit the grid up to rcut=10 a.u. 
+     ! This is used to cut off the numerical noise arising from the
+     ! large-r tail in cases like the integration of V_loc-Z/r
+     !
+     do ir = 1, mesh (nt)
+        if (r (ir, nt) > rcut) then
+           msh (nt) = ir
+           goto 5
+        endif
+     enddo
+     msh (nt) = mesh (nt)
+     !
+     ! force msh to be odd for simpson integration (maybe obsolete)
+     !
+5    msh (nt) = 2 * ( (msh (nt) + 1) / 2) - 1
+     !
+     ! Check that there are no zero wavefunctions
+     !
+     allocate ( chi2r (mesh(nt)) )
+     do nb = 1, nchi (nt)
+        chi2r(:) = chi ( :mesh(nt), nb, nt ) **2
+        call simpson (mesh(nt), chi2r(1), rab(1,nt), norm)
+        !
+        if ( norm < eps ) then
+           WRITE( stdout,'(5X,"WARNING: atomic wfc # ",i2, &
+                & " for atom type",i2," has zero norm")') nb, nt
+           !
+           ! set occupancy to a small negative number so that this wfc
+           ! is not going to be used for starting wavefunctions
+           !
+           oc (nb, nt) = -eps
+        end if
+     enddo
+     deallocate ( chi2r )
+     !
+     ! finally check that (occupied) atomic wfc are properly normalized
+     !
+     call check_atwfc_norm(nt)
+     !
+  enddo
+  !
+  return
+end subroutine readpp
+!-----------------------------------------------------------------------
+integer function pseudo_type (psfile)
+  !-----------------------------------------------------------------------
+  implicit none
+  character (len=*) :: psfile
+  integer :: l
+  !
+  l = len_trim (psfile)
+  pseudo_type = 0
+  if (psfile (l - 3:l) .eq.'.vdb'.or.psfile (l - 3:l) .eq.'.van') &
+       pseudo_type = 1
+  if (l > 5) then
+     if (psfile (l - 5:l) .eq.'.RRKJ3') pseudo_type = 2
+  end if
+  !
+  return
+
+end function pseudo_type
+
+!---------------------------------------------------------------
+SUBROUTINE check_atwfc_norm(nt)
+  !---------------------------------------------------------------
+  !  check the normalization of the atomic wfc (only those with non-negative
+  !  occupations) and renormalize them if the calculated norm is incorrect
+  !  by more than eps6
+  !
+  USE kinds,        ONLY : dp
+  USE constants,    ONLY : eps6
+  USE io_global,    ONLY : stdout
+  USE io_files,     ONLY : psfile
+  USE atom,         ONLY : chi, nchi, oc, mesh, msh, r, rab, lchi
+  USE uspp_param,   ONLY : tvanp, nbeta, lll, kkbeta, betar, qqq
+
+  IMPLICIT NONE
+
+  integer,intent(in) :: nt ! index of the pseudopotential to be checked
+  integer :: nb, l, ir, ibeta, ibeta1, ibeta2
+  real(DP), allocatable :: chi2(:), work(:)
+  real(DP) :: norm
+  logical :: match
+
+  do nb = 1, nchi(nt)
+    if (oc (nb, nt) < 0.d0) cycle
+
+    l = lchi (nb, nt)
+    allocate (chi2(msh(nt)))
+    do ir = 1, msh(nt)
+      chi2(ir) = chi(ir,nb,nt) * chi(ir,nb,nt)
+    enddo
+    call simpson (msh(nt), chi2, rab(1,nt), norm)
+    deallocate (chi2)
+
+    !
+    ! the US part if needed
+    !
+    if (  tvanp(nt) ) then
+      allocate(work(nbeta(nt)))
+
+      do ibeta = 1, nbeta(nt)
+        match = l .eq. lll(ibeta,nt)
+        if (match) then
+          allocate(chi2(kkbeta(nt)))
+          chi2(:)= betar(1:kkbeta(nt),ibeta,nt) * chi(1:kkbeta(nt),nb,nt)
+          call simpson (kkbeta(nt), chi2,  rab(1,nt), work(ibeta))
+          deallocate(chi2)
+        else
+          work(ibeta)=0.0_dp
+        endif
+      enddo
+
+      do ibeta1 = 1, nbeta(nt)
+        do ibeta2 = 1, nbeta(nt)
+          norm = norm + qqq(ibeta1,ibeta2,nt)*work(ibeta1)*work(ibeta2)
+        enddo
+      enddo
+      deallocate(work)
+    end if
+
+    norm = sqrt(norm)
+
+    if (abs(norm-1.0_dp) > eps6 ) then
+      WRITE( stdout, '(/,5x,"WARNING: Pseudopotential # ",i2," file : ",a)')&
+             nt, trim(psfile(nt))
+      WRITE( stdout, '(5x,"WARNING: WFC #",i2, "(l=",I1, &
+             & ") IS NOT CORRECTLY NORMALIZED: norm=",f10.6)') &
+             nb, l, norm
+      WRITE( stdout, '(5x,"WARNING: WFC HAS BEEN NOW RENORMALIZED ")')
+      chi(:,nb,nt)=chi(:,nb,nt)/norm
+    endif
+  enddo
+
+  return
+end subroutine check_atwfc_norm
+
+

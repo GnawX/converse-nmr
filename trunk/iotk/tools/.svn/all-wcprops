@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/3/trunk/iotk/tools
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/iotk/tools/.cvsignore
+END
+auto_config
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/iotk/tools/auto_config
+END
+export
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/iotk/tools/export
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/iotk/tools/configure
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/iotk/tools/configure.ac
+END
+iotk
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/iotk/tools/iotk
+END

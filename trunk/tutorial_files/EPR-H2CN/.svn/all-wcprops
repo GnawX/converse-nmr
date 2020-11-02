@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/25/trunk/tutorial_files/EPR-H2CN
+END
+pseudo
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/tutorial_files/EPR-H2CN/pseudo
+END
+job.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/tutorial_files/EPR-H2CN/job.sh
+END
+H2CN-converse.in.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/25/trunk/tutorial_files/EPR-H2CN/H2CN-converse.in.tmpl
+END

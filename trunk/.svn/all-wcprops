@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/47/trunk
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/Makefile
+END
+README.configure
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/README.configure
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/install-sh
+END
+cl2html.pl
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/cl2html.pl
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/configure
+END
+namedep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/namedep.sh
+END
+License
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/License
+END
+includedep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/includedep.sh
+END
+moduledep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/moduledep.sh
+END
+release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/release.sh
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/config.guess
+END
+ifcmods.sh
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/ifcmods.sh
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/config.sub
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/2/trunk/README
+END
+make.sys.in
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/make.sys.in
+END
+README.install
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/README.install
+END
+makedeps.sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/makedeps.sh
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/configure.ac
+END
+calltree.pl
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/calltree.pl
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/2/trunk/TODO
+END
+cvs2cl.pl
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/cvs2cl.pl
+END
+callhtml.pl
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/callhtml.pl
+END
+configure.msg.in
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/configure.msg.in
+END

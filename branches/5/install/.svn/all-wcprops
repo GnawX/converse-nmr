@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/35/branches/5/install
+END
+configure.msg.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/configure.msg.in
+END
+plugins_list
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/install/plugins_list
+END
+README.MinGW
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/install/README.MinGW
+END
+espresso.nsis
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/espresso.nsis
+END
+build-mingw-cross.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/install/build-mingw-cross.sh
+END
+addsontool.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/addsontool.sh
+END
+Make.BGP-openMP
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/install/Make.BGP-openMP
+END
+Make.CRAY-XK7
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/Make.CRAY-XK7
+END
+iotk_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/iotk_config.h
+END
+Make.BGP-openMP+FFTW
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/34/branches/5/install/Make.BGP-openMP+FFTW
+END
+namedep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/install/namedep.sh
+END
+Make.BGP
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/install/Make.BGP
+END
+make_blas.inc.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/make_blas.inc.in
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/branches/5/install/clean.sh
+END
+EnvVarUpdate.nsh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/EnvVarUpdate.nsh
+END
+Make.altix
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/install/Make.altix
+END
+addsonpatch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/install/addsonpatch.sh
+END
+makedeps.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/install/makedeps.sh
+END
+README.CRAY-XC30
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/README.CRAY-XC30
+END
+make_lapack.inc.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/34/branches/5/install/make_lapack.inc.in
+END
+extlibs_makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/extlibs_makefile
+END
+plugins_makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/34/branches/5/install/plugins_makefile
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/install/install-sh
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/34/branches/5/install/configure
+END
+includedep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/includedep.sh
+END
+sync-mingw-to-repo.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/install/sync-mingw-to-repo.sh
+END
+Makefile_lapack_testing_lin
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/34/branches/5/install/Makefile_lapack_testing_lin
+END
+moduledep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/install/moduledep.sh
+END
+update_version
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/branches/5/install/update_version
+END
+Makefile_lapack
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/install/Makefile_lapack
+END
+README.CRAY-XE6
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/install/README.CRAY-XE6
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/install/config.guess
+END
+README.IBM-INTEL.IDRIS_ada
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/branches/5/install/README.IBM-INTEL.IDRIS_ada
+END
+make_wannier90.sys.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/34/branches/5/install/make_wannier90.sys.in
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/34/branches/5/install/config.sub
+END
+make.sys.in
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/34/branches/5/install/make.sys.in
+END
+README.CINECA_fermi
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/branches/5/install/README.CINECA_fermi
+END
+README.CRAY-XK7
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/34/branches/5/install/README.CRAY-XK7
+END
+Makefile_iotk
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/34/branches/5/install/Makefile_iotk
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/34/branches/5/install/configure.ac
+END

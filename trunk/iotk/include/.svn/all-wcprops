@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/3/trunk/iotk/include
+END
+iotk_auxmacros.spp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/iotk/include/iotk_auxmacros.spp
+END
+iotk_list.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/iotk/include/iotk_list.sh
+END
+iotk_config.h.save
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/iotk/include/iotk_config.h.save
+END
+iotk_auxmacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/iotk/include/iotk_auxmacros.h
+END
+iotk_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/iotk/include/iotk_config.h
+END
+iotk_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/iotk/include/iotk_version.h
+END
+iotk_include.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/iotk/include/iotk_include.sh
+END
+iotk_version.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/iotk/include/iotk_version.sh
+END
+iotk_mangen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/iotk/include/iotk_mangen.sh
+END
+iotk_config.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/iotk/include/iotk_config.sh
+END
+iotk_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/iotk/include/iotk_config.h.in
+END

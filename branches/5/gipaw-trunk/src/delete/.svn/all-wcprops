@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete
+END
+init_us_2_no_phase.f90
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete/init_us_2_no_phase.f90
+END
+gipaw_setup.f90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete/gipaw_setup.f90
+END
+init_gipaw_1.f90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete/init_gipaw_1.f90
+END
+init_gipaw_2.f90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete/init_gipaw_2.f90
+END
+paw_gipaw.f90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/43/branches/5/gipaw-trunk/src/delete/paw_gipaw.f90
+END
